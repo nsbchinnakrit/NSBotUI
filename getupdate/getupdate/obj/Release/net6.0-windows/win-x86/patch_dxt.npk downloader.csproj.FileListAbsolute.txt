@@ -1,0 +1,15 @@
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.exe
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.deps.json
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.runtimeconfig.json
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.csproj.AssemblyReference.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.Form1.resources
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.csproj.GenerateResource.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.AssemblyInfoInputs.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.AssemblyInfo.cs
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.csproj.CoreCompileInputs.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\refint\patch_dxt.npk downloader.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\patch_dxt.npk downloader.genruntimeconfig.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\ref\patch_dxt.npk downloader.dll

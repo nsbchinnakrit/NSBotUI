@@ -1,0 +1,15 @@
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\getupdate.exe
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\getupdate.deps.json
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\getupdate.runtimeconfig.json
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\win-x86\getupdate.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.csproj.AssemblyReference.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.Form1.resources
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.csproj.GenerateResource.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.GeneratedMSBuildEditorConfig.editorconfig
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.AssemblyInfoInputs.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.AssemblyInfo.cs
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.csproj.CoreCompileInputs.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\refint\getupdate.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\getupdate.genruntimeconfig.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\win-x86\ref\getupdate.dll

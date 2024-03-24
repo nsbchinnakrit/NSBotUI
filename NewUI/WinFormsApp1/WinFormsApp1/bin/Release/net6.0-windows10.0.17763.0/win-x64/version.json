@@ -1,0 +1,13 @@
+{
+  "version": "Dev",
+  "eventtext": "Event",
+  "roundoption": "keep",
+  "theme": "system",
+  "disc": "1",
+  "tomb": true,
+  "snowball": true,
+  "azure": true,
+  "kuro": true,
+  "changelog": "※ แก้ไขรูปภาพของปุ่ม Start ใน Event SP Enmu\n※ แก้ไขให้บันทึกค่า Config ของ Wanted Quest Option ทุกครั้งที่กดปุ่ม Start\n     ( ป้องกันบอทดึง Config ผิด เมื่อเปิดมากกว่า 1 จอ และมีการตั้งค่าต่างกัน )\n※ ปรับปรุงประสิทธิภาพของโหมด Event (สำหรับเซิร์ฟเวอร์จีน)\n※ ปรับปรุงหน้าตาของ UI หลักเล็กน้อย",
+  "notify": true
+}

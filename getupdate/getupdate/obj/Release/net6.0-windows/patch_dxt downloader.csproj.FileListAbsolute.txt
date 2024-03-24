@@ -1,0 +1,15 @@
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\patch_dxt downloader.exe
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\patch_dxt downloader.deps.json
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\patch_dxt downloader.runtimeconfig.json
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\bin\Release\net6.0-windows\patch_dxt downloader.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.csproj.AssemblyReference.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\getupdate.Form1.resources
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.csproj.GenerateResource.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.AssemblyInfoInputs.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.AssemblyInfo.cs
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.csproj.CoreCompileInputs.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\refint\patch_dxt downloader.dll
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\patch_dxt downloader.genruntimeconfig.cache
+C:\LoLLiPoP\project\NSBotUI\getupdate\getupdate\obj\Release\net6.0-windows\ref\patch_dxt downloader.dll
