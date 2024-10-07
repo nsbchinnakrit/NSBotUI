@@ -15,8 +15,8 @@ namespace WinFormsApp1
         #region Value Config
         private bool Notify_state = false;
 
-        private string latestVersion = null;
-        private string JsonVersion = null;
+        //private string latestVersion = null;
+        //private string JsonVersion = null;
         private IntPtr hwd = IntPtr.Zero;
         private string gameModeselected = "SingleSoul";
         private string bondlingMode = "Explore";
@@ -32,16 +32,15 @@ namespace WinFormsApp1
         private string azure = "false";
         private string kuro = "false";
 
-        private string findimgdelay = "0.01";
+        //private string findimgdelay = "0.01";
         private string origintotal = null;
         private string totalinfile = null;
         private string argumentsString = null;
 
         private Process runningProcess;
         private int pid = 0;
-        private Point MainLocation;
+        //private Point MainLocation;
         private System.Windows.Forms.Timer timer;
-        private string themename = null;
         #endregion
 
         #region DllImport
@@ -129,17 +128,11 @@ namespace WinFormsApp1
             wt_coin.Checked = ReadJsonClass.wt_coin;
             wt_sushi.Checked = ReadJsonClass.wt_sushi;
             wt_food.Checked = ReadJsonClass.wt_food;
-            if (ReadJsonClass.Theme == "system")
-            { themesys.Checked = true; }
-
-            if (ReadJsonClass.Theme == "dark")
-            { themedark.Checked = true; }
-
-            if (ReadJsonClass.Theme == "light")
-            { themelight.Checked = true; }
 
             if (ReadJsonClass.JsonVersion != "Dev")
-            { Tools.Visible = false; }
+            {
+                tabControl1.TabPages.Remove(tabPage5);
+            }
 
             #endregion
 
@@ -160,14 +153,6 @@ namespace WinFormsApp1
             button1.Visible = true;
             RaidOption.Visible = false;
             BondlingOption.Visible = true;
-            SettingBox1.Location = MainBox.Location;
-            SettingBox1.SendToBack();
-            AboutBox.Location = MainBox.Location;
-            AboutBox.SendToBack();
-            BondlingSettingsBox.Location = MainBox.Location;
-            BondlingSettingsBox.SendToBack();
-            DevBox.Location = MainBox.Location;
-            DevBox.SendToBack();
 
             splitter1.Cursor = Cursors.Arrow;
             splitter2.Cursor = Cursors.Arrow;
@@ -181,8 +166,8 @@ namespace WinFormsApp1
 
             panel1.AutoScroll = false;
 
-            panel1.VerticalScroll.Maximum = 0;
-            panel1.VerticalScroll.Visible = false;
+            //panel1.VerticalScroll.Maximum = 0;
+            panel1.VerticalScroll.Visible = true;
 
             panel1.HorizontalScroll.Maximum = 0;
             panel1.HorizontalScroll.Visible = false;
@@ -191,8 +176,8 @@ namespace WinFormsApp1
 
             panel2.AutoScroll = false;
 
-            panel2.VerticalScroll.Maximum = 0;
-            panel2.VerticalScroll.Visible = false;
+            //panel2.VerticalScroll.Maximum = 8;
+            panel2.VerticalScroll.Visible = true;
 
             panel2.HorizontalScroll.Maximum = 0;
             panel2.HorizontalScroll.Visible = false;
@@ -205,14 +190,12 @@ namespace WinFormsApp1
 
             #endregion
 
-            onMainBox();
             EnableGroupBoxes();
-            ThemeMode();
             #region ตรวจสอบ Display scale
             double scale = GetDisplayScale();
             if (scale != 1.0)
             {
-                NSLaunch.CustomMessageBox.SettingDPI($"Auto click ของ NSBot ใช้งานได้เฉพาะบน Display Scale 100%\nปัจจุบัน Display Scale ของคุณคือ {scale * 100}% กรุณาเปลี่ยนแปลงการตั้งค่า\n\nสามารถเปลี่ยนการตั้งค่าโดยกดปุ่ม Open Settings และมองหา 'Scale && layout'\nหากตั้งค่าเรียบร้อยแล้ว ให้เปิดโปรแกรมใหม่อีกครั้ง", themename);
+                NSLaunch.CustomMessageBox.SettingDPI($"Auto click ของ NSBot ใช้งานได้เฉพาะบน Display Scale 100%\nปัจจุบัน Display Scale ของคุณคือ {scale * 100}% กรุณาเปลี่ยนแปลงการตั้งค่า\n\nสามารถเปลี่ยนการตั้งค่าโดยกดปุ่ม Open Settings และมองหา 'Scale && layout'\nหากตั้งค่าเรียบร้อยแล้ว ให้เปิดโปรแกรมใหม่อีกครั้ง");
                 this.Close();
             }
             #endregion ตรวจสอบ Display scale
@@ -244,236 +227,6 @@ namespace WinFormsApp1
             { this.kuro = "true"; }
         }
         #endregion Check_pact
-
-        #region Theme Code
-        private void ThemeMode()
-        {
-            string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "version.json");
-            string jsonContent = File.ReadAllText(jsonPath);
-
-            dynamic jsonData = JsonConvert.DeserializeObject(jsonContent);
-
-            bool bRet = ShouldSystemUseDarkMode();
-            if (themesys.Checked)
-            {
-                if (bRet)
-                {
-                    DarkColor();
-                }
-                else
-                {
-                    LightColor();
-                }
-
-                jsonData["theme"] = "system";
-
-            }
-            else if (themedark.Checked)
-            {
-                DarkColor();
-                jsonData["theme"] = "dark";
-            }
-
-            else if (themelight.Checked)
-            {
-                LightColor();
-                jsonData["theme"] = "light";
-            }
-            File.WriteAllText(jsonPath, JsonConvert.SerializeObject(jsonData, Formatting.Indented));
-            this.Invoke((MethodInvoker)delegate
-            {
-                WindowInput.ForeColor = ForeColor;
-
-                GameModeBox.ForeColor = ForeColor;
-                RoundBox.ForeColor = ForeColor;
-                ServerSelectBox.ForeColor = ForeColor;
-                RoundOption.ForeColor = ForeColor;
-                WantedBox.ForeColor = ForeColor;
-                TeamBox.ForeColor = ForeColor;
-                RaidOption.ForeColor = ForeColor;
-                BondlingOption.ForeColor = ForeColor;
-
-
-                wnd_defsize.FlatStyle = FlatStyle.Flat;
-                wnd_defsize.FlatAppearance.BorderSize = 1;
-
-                InputRound.ForeColor = ForeColor;
-
-                GameMode.ForeColor = ForeColor;
-                Setting1.ForeColor = ForeColor;
-                About.ForeColor = ForeColor;
-            });
-        }
-
-        private void DarkColor()
-        {
-            ForeColor = Color.DarkGray;
-            BackColor = Color.FromArgb(38, 38, 38);
-            WindowInput.BackColor = Color.FromArgb(32, 32, 32);
-            wnd_defsize.BackColor = Color.FromArgb(28, 28, 28);
-            InputRound.BackColor = Color.FromArgb(32, 32, 32);
-            button1.BackColor = Color.FromArgb(28, 28, 28);
-            button1.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-            button2.BackColor = Color.FromArgb(20, 20, 20);
-            button2.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-            splitter3.BackColor = Color.FromArgb(28, 28, 28);
-            teamtext.BackColor = Color.FromArgb(28, 28, 28);
-            Tiptext1.ForeColor = Color.Salmon;
-            GameMode.ForeColor = ForeColor;
-            GameMode.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-            Setting1.ForeColor = ForeColor;
-            Setting1.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-            About.ForeColor = ForeColor;
-            About.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-            BondlingSt.ForeColor = ForeColor;
-            BondlingSt.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-            Tools.ForeColor = ForeColor;
-            Tools.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-
-            WindowInput.BorderStyle = BorderStyle.FixedSingle;
-            InputRound.BorderStyle = BorderStyle.FixedSingle;
-            wnd_defsize.FlatAppearance.BorderColor = Color.FromArgb(100, 100, 100);
-
-            ChangeGroupBoxPaintEventDark();
-            openfolder.ForeColor = Color.Black;
-            dl_konleam.ForeColor = Color.Black;
-            Kill_process.ForeColor = Color.Black;
-            imgdelaysave.ForeColor = Color.Black;
-
-            splitContainer1.ForeColor = Color.Black;
-
-            DwmSetWindowAttribute(Handle, 20, new[] { 1 }, 4);
-            string theme = "Dark";
-            this.themename = theme;
-        }
-
-        private void LightColor()
-        {
-            ForeColor = DefaultForeColor;
-            BackColor = Color.White;
-            WindowInput.BackColor = Color.FromArgb(240, 242, 245);
-            wnd_defsize.BackColor = DefaultBackColor;
-            InputRound.BackColor = Color.FromArgb(240, 242, 245);
-            button1.BackColor = DefaultBackColor;
-            button1.FlatAppearance.BorderColor = Color.DarkGray;
-            button2.BackColor = Color.LavenderBlush;
-            button2.FlatAppearance.BorderColor = Color.DarkGray;
-            splitter3.BackColor = DefaultBackColor;
-            teamtext.BackColor = DefaultBackColor;
-            Tiptext1.ForeColor = Color.Brown;
-            GameMode.FlatAppearance.BorderColor = Color.FromArgb(206, 208, 212);
-            Setting1.ForeColor = DefaultForeColor;
-            Setting1.FlatAppearance.BorderColor = Color.FromArgb(206, 208, 212);
-            About.ForeColor = DefaultForeColor;
-            About.FlatAppearance.BorderColor = Color.FromArgb(206, 208, 212);
-            BondlingSt.ForeColor = DefaultForeColor;
-            BondlingSt.FlatAppearance.BorderColor = Color.FromArgb(206, 208, 212);
-            Tools.ForeColor = DefaultForeColor;
-            Tools.FlatAppearance.BorderColor = Color.FromArgb(206, 208, 212);
-
-            WindowInput.BorderStyle = BorderStyle.Fixed3D;
-            InputRound.BorderStyle = BorderStyle.Fixed3D;
-            wnd_defsize.FlatAppearance.BorderColor = Color.FromArgb(206, 208, 212);
-
-
-            ChangeGroupBoxPaintEventLight();
-
-
-            openfolder.ForeColor = ForeColor;
-            dl_konleam.ForeColor = ForeColor;
-            Kill_process.ForeColor = ForeColor;
-            imgdelaysave.ForeColor = ForeColor;
-
-            splitContainer1.ForeColor = Color.Black;
-
-            DwmSetWindowAttribute(Handle, 20, new[] { 0 }, 4);
-            string theme = "Light";
-            this.themename = theme;
-        }
-
-        private void ChangeGroupBoxPaintEventDark()
-        {
-            List<GroupBox> groupBoxesToChange = new List<GroupBox>
-            {
-                ServerSelectBox, MainBox, SettingBox1, AboutBox, DevBox,
-                BondlingSettingsBox, TeamBox, GameModeBox, WantedBox, RaidOption,
-                BondlingOption, konleambox, groupBox1, groupBox2, AfterFinishBox,
-                FindIMGBox, ThemeBox, RoundBox, RoundOption
-            };
-            foreach (var groupBox in groupBoxesToChange)
-            {
-                groupBox.Paint -= groupBoxLight_Paint;
-                groupBox.Paint -= groupBoxDark_Paint;
-                groupBox.Paint += groupBoxDark_Paint;
-            }
-        }
-
-        private void ChangeGroupBoxPaintEventLight()
-        {
-            List<GroupBox> groupBoxesToChange = new List<GroupBox>
-            {
-                ServerSelectBox, MainBox, SettingBox1, AboutBox, DevBox,
-                BondlingSettingsBox, TeamBox, GameModeBox, WantedBox, RaidOption,
-                BondlingOption, konleambox, groupBox1, groupBox2, AfterFinishBox,
-                FindIMGBox, ThemeBox, RoundBox, RoundOption
-            };
-            foreach (var groupBox in groupBoxesToChange)
-            {
-                groupBox.Paint -= groupBoxLight_Paint;
-                groupBox.Paint -= groupBoxDark_Paint;
-                groupBox.Paint += groupBoxLight_Paint;
-            }
-        }
-
-        private void groupBoxDark_Paint(object sender, PaintEventArgs e)
-        {
-            GroupBox box = sender as GroupBox;
-            DrawGroupBox(box, e.Graphics, Color.Gainsboro, Color.FromArgb(100, 100, 100));
-        }
-
-        private void groupBoxLight_Paint(object sender, PaintEventArgs e)
-        {
-            GroupBox box = sender as GroupBox;
-            DrawGroupBox(box, e.Graphics, Color.Black, Color.FromArgb(206, 208, 212));
-        }
-
-
-        private void DrawGroupBox(GroupBox box, Graphics g, Color textColor, Color borderColor)
-        {
-            if (box != null)
-            {
-                this.Invoke((MethodInvoker)delegate
-                {
-                    Brush textBrush = new SolidBrush(textColor);
-                    Brush borderBrush = new SolidBrush(borderColor);
-                    Pen borderPen = new Pen(borderBrush);
-                    SizeF strSize = g.MeasureString(box.Text, box.Font);
-                    Rectangle rect = new Rectangle(box.ClientRectangle.X,
-                                                   box.ClientRectangle.Y + (int)(strSize.Height / 2),
-                                                   box.ClientRectangle.Width - 1,
-                                                   box.ClientRectangle.Height - (int)(strSize.Height / 2) - 1);
-
-                    // Clear text and border
-                    g.Clear(this.BackColor);
-
-                    // Draw text
-                    g.DrawString(box.Text, box.Font, textBrush, Padding.Left + 7, Padding.Top);
-
-                    // Drawing Border
-                    //Left
-                    g.DrawLine(borderPen, rect.Location, new Point(rect.X, rect.Y + rect.Height));
-                    //Right
-                    g.DrawLine(borderPen, new Point(rect.X + rect.Width, rect.Y), new Point(rect.X + rect.Width, rect.Y + rect.Height));
-                    //Bottom
-                    g.DrawLine(borderPen, new Point(rect.X, rect.Y + rect.Height), new Point(rect.X + rect.Width, rect.Y + rect.Height));
-                    //Top1
-                    g.DrawLine(borderPen, new Point(rect.X, rect.Y), new Point(rect.X + box.Padding.Left, rect.Y));
-                    //Top2
-                    g.DrawLine(borderPen, new Point(rect.X + box.Padding.Left + (int)(strSize.Width), rect.Y), new Point(rect.X + rect.Width, rect.Y));
-                });
-            }
-        }
-        #endregion
 
         #region Check Temp File, Notificationcompleted
         private System.Timers.Timer fileReadTimer;
@@ -621,6 +374,7 @@ namespace WinFormsApp1
                     Console.WriteLine("Process killed successfully.");
                     this.beforetotal = "0";
                     InputRound.Text = origintotal;
+                    this.Close();
                 }
                 catch (Win32Exception ex)
                 {
@@ -740,7 +494,7 @@ namespace WinFormsApp1
                         {
                             targetForm.TopMost = true;
                             targetForm.TopMost = false;
-                            NSLaunch.CustomMessageBox.Showwanted(imagePath, themename);
+                            NSLaunch.CustomMessageBox.Showwanted(imagePath);
                         }));
                     }));
 
@@ -785,51 +539,6 @@ namespace WinFormsApp1
             transparentPanel2.BringToFront();
             transparentPanel3.BringToFront();
             transparentPanel5.BringToFront();
-        }
-
-        private void onMainBox()
-        {
-            MainBox.Visible = true;
-            BondlingSettingsBox.Visible = false;
-            SettingBox1.Visible = false;
-            AboutBox.Visible = false;
-            DevBox.Visible = false;
-        }
-
-        private void onBondlingSettingsBox()
-        {
-            MainBox.Visible = false;
-            BondlingSettingsBox.Visible = true;
-            SettingBox1.Visible = false;
-            AboutBox.Visible = false;
-            DevBox.Visible = false;
-        }
-
-        private void onSettingBox1()
-        {
-            MainBox.Visible = false;
-            BondlingSettingsBox.Visible = false;
-            SettingBox1.Visible = true;
-            AboutBox.Visible = false;
-            DevBox.Visible = false;
-        }
-
-        private void onAboutBox()
-        {
-            MainBox.Visible = false;
-            BondlingSettingsBox.Visible = false;
-            SettingBox1.Visible = false;
-            AboutBox.Visible = true;
-            DevBox.Visible = false;
-        }
-
-        private void onDevBox()
-        {
-            MainBox.Visible = false;
-            BondlingSettingsBox.Visible = false;
-            SettingBox1.Visible = false;
-            AboutBox.Visible = false;
-            DevBox.Visible = true;
         }
 
         #endregion Setup UI Code
@@ -941,6 +650,7 @@ namespace WinFormsApp1
                     }
                 }
 
+                WindowInput.Enabled = false;
                 RoundBox.Text = "⨠ In Process";
                 button1.Enabled = false;
                 button2.Visible = true;
@@ -1035,6 +745,7 @@ namespace WinFormsApp1
                 // เรียกใช้ Invoke เพื่อเข้าถึง controls ในเธรด UI หลัก
                 Invoke(new Action(() =>
                 {
+                    WindowInput.Enabled = true;
                     button2.Visible = false;
                     button1.Enabled = true;
                     RoundBox.Text = "Total Round";
@@ -1044,6 +755,7 @@ namespace WinFormsApp1
             }
             else
             {
+                WindowInput.Enabled = true;
                 button2.Visible = false;
                 button1.Enabled = true;
                 RoundBox.Text = "Total Round";
@@ -1107,7 +819,7 @@ namespace WinFormsApp1
             else if (ExploreRealm.Checked)
             {
                 TeamBox.Visible = false;
-                MainBox.Controls.Add(RaidOption);
+                //MainBox.Controls.Add(RaidOption);
                 RaidOption.Location = TeamBox.Location;
                 RaidOption.Visible = true;
                 RaidOption.BringToFront();
@@ -1121,7 +833,7 @@ namespace WinFormsApp1
             else if (RealmRaid.Checked)
             {
                 TeamBox.Visible = false;
-                MainBox.Controls.Add(RaidOption);
+                //MainBox.Controls.Add(RaidOption);
                 RaidOption.Location = TeamBox.Location;
                 RaidOption.Visible = true;
                 RaidOption.BringToFront();
@@ -1152,10 +864,10 @@ namespace WinFormsApp1
                 gameMode = "Event";
                 InputRound.Text = "300";
             }
-            else if (Bondling.Checked)
+            else if (Bondling.Checked && BondlingExp.Checked)
             {
                 TeamBox.Visible = false;
-                MainBox.Controls.Add(BondlingOption);
+                //MainBox.Controls.Add(BondlingOption);
                 BondlingOption.Location = TeamBox.Location;
                 BondlingOption.BringToFront();
                 RaidOption.Visible = false;
@@ -1242,19 +954,22 @@ namespace WinFormsApp1
                 Tiptext1.Text = string.Empty;
                 crystal_uncheck();
                 crystal.Enabled = false;
+                InputRound.Text = "100";
             }
             else if (BondlingPact.Checked == true && button2.Visible != true)
             {
                 this.bondlingMode = "Pact";
                 crystal.Enabled = true;
-                Tiptext1.Text = "สามารถตั้งค่า Disc และสัตว์ที่ต้องการจับ ได้ที่แท็บ Bondling Settings หรือปุม Config";
+                InputRound.Text = "10";
+                Tiptext1.Text = "ตั้งค่า Disc และสัตว์ที่ต้องการจับ ได้ที่แท็บ Bondling Settings | โหมดนี้จะนับรอบเฉพาะตอนที่จับได้";
             }
             else if (BondlingBoth.Checked == true && button2.Visible != true)
             {
                 this.bondlingMode = "Both";
-                Tiptext1.Text = "สามารถตั้งค่า Disc และสัตว์ที่ต้องการจับ ได้ที่แท็บ Bondling Settings หรือปุม Config";
+                Tiptext1.Text = "ตั้งค่า Disc และสัตว์ที่ต้องการจับ ได้ที่แท็บ Bondling Settings | โหมดนี้จะนับรอบเฉพาะตอนที่จับได้";
                 crystal_uncheck();
                 crystal.Enabled = false;
+                InputRound.Text = "5";
             }
 
         }
@@ -1387,70 +1102,6 @@ namespace WinFormsApp1
         }
         #endregion DEV Options
 
-        #region Main UI Box Page
-        private void GameMode_Click(object sender, EventArgs e)
-        {
-            Invoke((MethodInvoker)delegate
-            {
-                //MainBox.BringToFront();
-                onMainBox();
-                Button_to_front();
-            });
-        }
-
-        private void Setting1_Click(object sender, EventArgs e)
-        {
-            Invoke((MethodInvoker)delegate
-            {
-                //SettingBox1.BringToFront();
-                onSettingBox1();
-                Button_to_front();
-            });
-        }
-
-        private void About_Click(object sender, EventArgs e)
-        {
-            Invoke((MethodInvoker)delegate
-            {
-                //AboutBox.BringToFront();
-                onAboutBox();
-                Button_to_front();
-            });
-        }
-
-        private void BondlingSt_Click(object sender, EventArgs e)
-        {
-            Invoke((MethodInvoker)delegate
-            {
-                //BondlingSettingsBox.BringToFront();
-                onBondlingSettingsBox();
-                Button_to_front();
-            });
-        }
-
-        private void Tools_Click(object sender, EventArgs e)
-        {
-            Invoke((MethodInvoker)delegate
-            {
-                //DevBox.BringToFront();
-                onDevBox();
-                Button_to_front();
-            });
-        }
-
-        private void Button_to_front()
-        {
-            Invoke((MethodInvoker)delegate
-            {
-                GameMode.BringToFront();
-                Setting1.BringToFront();
-                About.BringToFront();
-                Tools.BringToFront();
-                BondlingSt.BringToFront();
-            });
-        }
-        #endregion Main UI Box Page
-
         #region Bondling Page CheckBox
         private void DiscSelect_CheckedChanged(object sender, EventArgs e)
         {
@@ -1558,29 +1209,25 @@ namespace WinFormsApp1
 
         private void crystal_pact_CheckedChanged(object sender, EventArgs e)
         {
-            this.Tomb.Checked = false;
-            this.Snowball.Checked = false;
-            this.Azure.Checked = false;
-            this.Kuro.Checked = false;
             if (rTomb.Checked == true)
             {
                 this.crystal_use = "1";
-                this.Tomb.Checked = true;
+                //this.Tomb.Checked = true;
             }
             if (rSnowBall.Checked == true)
             {
                 this.crystal_use = "2";
-                this.Snowball.Checked = true;
+                //this.Snowball.Checked = true;
             }
             if (rAzure.Checked == true)
             {
                 this.crystal_use = "3";
-                this.Azure.Checked = true;
+                //this.Azure.Checked = true;
             }
             if (rKuro.Checked == true)
             {
                 this.crystal_use = "4";
-                this.Kuro.Checked = true;
+                //this.Kuro.Checked = true;
             }
         }
         #endregion Bondling Page CheckBox
@@ -1669,11 +1316,6 @@ namespace WinFormsApp1
             string updatedJsonContent = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
 
             File.WriteAllText(jsonPath, updatedJsonContent);
-        }
-
-        private void themesys_CheckedChanged(object sender, EventArgs e)
-        {
-            ThemeMode();
         }
 
         private void Notify_CheckedChanged(object sender, EventArgs e)
@@ -1771,7 +1413,6 @@ namespace WinFormsApp1
         }
 
         #endregion อื่นๆ
-
     }
 
     public class TransparentPanel : Panel

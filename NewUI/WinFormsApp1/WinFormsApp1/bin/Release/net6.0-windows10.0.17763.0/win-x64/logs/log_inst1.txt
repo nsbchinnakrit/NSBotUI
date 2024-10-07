@@ -1,0 +1,563 @@
+[12:35:59] DEBUG [runprocess | 70]: GameMode:[GuildRealmRaid], Server:[GB], Total Round:[80]
+[12:35:59] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:36:00] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:36:00] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9534560441970825, pos:[1013, 321]
+[12:36:00] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:36:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9534560441970825, pos:[1013, 321]
+[12:36:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:36:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:36:02] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:36:02] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:36:38] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.994194746017456, pos:[396, 179]
+[12:36:38] INFO [GuildRealmRaid | 185]: Failed..
+[12:36:42] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:36:42] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:36:42] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:36:43] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:36:43] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:36:43] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:36:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398432970046997, pos:[886, 396]
+[12:36:44] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:37:58] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9582075476646423, pos:[536, 461]
+[12:37:58] INFO [GuildRealmRaid | 194]: Finishing...
+[12:38:02] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:38:03] INFO [GuildRealmRaid | 295]: completed 1, remaining 79 round
+[12:38:03] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:38:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:38:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:38:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:38:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:38:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:38:05] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:38:05] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:38:05] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:38:45] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.9941940307617188, pos:[396, 179]
+[12:38:45] INFO [GuildRealmRaid | 185]: Failed..
+[12:38:49] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:38:49] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:38:49] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:38:50] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:38:50] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:38:50] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:38:51] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:38:51] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:39:24] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9167248010635376, pos:[350, 126]
+[12:39:24] INFO [GuildRealmRaid | 194]: Finishing...
+[12:39:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:39:31] INFO [GuildRealmRaid | 295]: completed 2, remaining 78 round
+[12:39:31] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:39:32] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:39:32] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:39:32] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:39:32] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:39:33] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:39:33] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:39:33] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398432970046997, pos:[886, 396]
+[12:39:33] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:39:54] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9548797607421875, pos:[536, 461]
+[12:39:54] INFO [GuildRealmRaid | 194]: Finishing...
+[12:39:58] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:39:59] INFO [GuildRealmRaid | 295]: completed 3, remaining 77 round
+[12:39:59] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:40:00] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:40:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:40:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:40:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:40:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:40:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:40:02] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398432970046997, pos:[886, 396]
+[12:40:02] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:40:40] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9455165863037109, pos:[350, 126]
+[12:40:40] INFO [GuildRealmRaid | 194]: Finishing...
+[12:40:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:40:46] INFO [GuildRealmRaid | 295]: completed 4, remaining 76 round
+[12:40:46] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:40:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:40:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:40:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:40:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:40:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:40:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:40:49] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:40:49] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:41:10] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9575566053390503, pos:[536, 461]
+[12:41:10] INFO [GuildRealmRaid | 194]: Finishing...
+[12:41:14] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:41:15] INFO [GuildRealmRaid | 295]: completed 5, remaining 75 round
+[12:41:15] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:41:16] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:41:16] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:41:16] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:41:16] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:41:16] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:41:17] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:41:17] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:41:17] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:41:40] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9352719187736511, pos:[536, 461]
+[12:41:40] INFO [GuildRealmRaid | 194]: Finishing...
+[12:41:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:41:45] INFO [GuildRealmRaid | 295]: completed 6, remaining 74 round
+[12:41:45] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:41:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:41:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:41:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:41:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:41:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:41:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:41:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:41:48] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:42:21] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9352670311927795, pos:[350, 126]
+[12:42:21] INFO [GuildRealmRaid | 194]: Finishing...
+[12:42:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:42:28] INFO [GuildRealmRaid | 295]: completed 7, remaining 73 round
+[12:42:28] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:42:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:42:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:42:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:42:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:42:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:42:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:42:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:42:30] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:43:01] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9696164131164551, pos:[349, 126]
+[12:43:01] INFO [GuildRealmRaid | 194]: Finishing...
+[12:43:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:43:08] INFO [GuildRealmRaid | 295]: completed 8, remaining 72 round
+[12:43:08] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:43:10] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:43:10] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:43:10] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:43:10] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:43:10] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:43:11] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:43:11] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:43:11] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:44:41] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.994194746017456, pos:[396, 179]
+[12:44:41] INFO [GuildRealmRaid | 185]: Failed..
+[12:44:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:44:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:44:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:44:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598672389984131, pos:[1013, 321]
+[12:44:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:44:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:44:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398432970046997, pos:[886, 396]
+[12:44:47] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:45:33] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9582075476646423, pos:[536, 461]
+[12:45:33] INFO [GuildRealmRaid | 194]: Finishing...
+[12:45:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:45:38] INFO [GuildRealmRaid | 295]: completed 9, remaining 71 round
+[12:45:38] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:45:39] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:45:39] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:45:39] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:45:40] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:45:40] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:45:40] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:45:41] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398432970046997, pos:[886, 396]
+[12:45:41] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:46:24] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9291005730628967, pos:[537, 441]
+[12:46:24] INFO [GuildRealmRaid | 194]: Finishing...
+[12:46:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:46:29] INFO [GuildRealmRaid | 295]: completed 10, remaining 70 round
+[12:46:29] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:46:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:46:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:46:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:46:31] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:46:31] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:46:31] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:46:32] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398432970046997, pos:[886, 396]
+[12:46:32] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:46:54] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9252102971076965, pos:[350, 126]
+[12:46:54] INFO [GuildRealmRaid | 194]: Finishing...
+[12:47:01] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:47:02] INFO [GuildRealmRaid | 295]: completed 11, remaining 69 round
+[12:47:02] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:47:03] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:47:03] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:47:03] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:47:03] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598711133003235, pos:[1013, 321]
+[12:47:03] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:47:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:47:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398404955863953, pos:[886, 396]
+[12:47:04] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:47:33] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.994194746017456, pos:[396, 179]
+[12:47:33] INFO [GuildRealmRaid | 185]: Failed..
+[12:47:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:47:38] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598698019981384, pos:[1013, 321]
+[12:47:38] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9490336775779724, pos:[641, 476]
+[12:47:38] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598698019981384, pos:[1013, 321]
+[12:47:38] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9489572644233704, pos:[641, 356]
+[12:47:38] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:47:39] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9433408975601196, pos:[586, 546]
+[12:47:39] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:48:01] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9582075476646423, pos:[536, 461]
+[12:48:01] INFO [GuildRealmRaid | 194]: Finishing...
+[12:48:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:48:05] INFO [GuildRealmRaid | 295]: completed 12, remaining 68 round
+[12:48:05] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:48:06] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:48:06] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598633646965027, pos:[1013, 321]
+[12:48:06] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:48:06] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598633646965027, pos:[1013, 321]
+[12:48:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500587582588196, pos:[941, 476]
+[12:48:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:48:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398432970046997, pos:[886, 396]
+[12:48:08] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:49:02] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9580413103103638, pos:[536, 461]
+[12:49:02] INFO [GuildRealmRaid | 194]: Finishing...
+[12:49:05] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:49:06] INFO [GuildRealmRaid | 295]: completed 13, remaining 67 round
+[12:49:06] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:49:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:49:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598633646965027, pos:[1013, 321]
+[12:49:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:49:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598633646965027, pos:[1013, 321]
+[12:49:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9500205516815186, pos:[941, 476]
+[12:49:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:49:09] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9398418664932251, pos:[886, 396]
+[12:49:09] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:50:12] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9683883190155029, pos:[349, 126]
+[12:50:12] INFO [GuildRealmRaid | 194]: Finishing...
+[12:50:17] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9490336775779724, pos:[641, 356]
+[12:50:18] INFO [GuildRealmRaid | 295]: completed 14, remaining 66 round
+[12:50:18] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:50:19] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:50:19] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:50:19] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9489572644233704, pos:[641, 236]
+[12:50:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598685503005981, pos:[1013, 321]
+[12:50:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9490718841552734, pos:[641, 356]
+[12:50:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:50:21] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9433408975601196, pos:[586, 546]
+[12:50:21] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:50:39] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9570783972740173, pos:[536, 461]
+[12:50:39] INFO [GuildRealmRaid | 194]: Finishing...
+[12:50:43] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9489190578460693, pos:[641, 356]
+[12:50:44] INFO [GuildRealmRaid | 295]: completed 15, remaining 65 round
+[12:50:44] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:50:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:50:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598723649978638, pos:[1013, 321]
+[12:50:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9490336775779724, pos:[641, 356]
+[12:50:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598723649978638, pos:[1013, 321]
+[12:50:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9489572644233704, pos:[641, 356]
+[12:50:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:50:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9433422684669495, pos:[586, 546]
+[12:50:47] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:51:21] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.9941968321800232, pos:[396, 179]
+[12:51:21] INFO [GuildRealmRaid | 185]: Failed..
+[12:51:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:51:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9598723649978638, pos:[1013, 321]
+[12:51:26] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:51:26] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:51:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:51:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.95472252368927, pos:[1013, 314]
+[12:51:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9513198733329773, pos:[941, 233]
+[12:51:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.95472252368927, pos:[1013, 314]
+[12:51:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9513198733329773, pos:[941, 233]
+[12:51:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:51:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9322395920753479, pos:[886, 423]
+[12:51:30] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:52:16] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9582090377807617, pos:[536, 461]
+[12:52:16] INFO [GuildRealmRaid | 194]: Finishing...
+[12:52:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:52:22] INFO [GuildRealmRaid | 295]: completed 16, remaining 64 round
+[12:52:22] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:52:22] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:52:22] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9554488658905029, pos:[1013, 314]
+[12:52:23] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:52:23] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:52:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:52:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9612985253334045, pos:[1013, 308]
+[12:52:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.975199818611145, pos:[941, 232]
+[12:52:26] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9612985253334045, pos:[1013, 308]
+[12:52:26] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.975199818611145, pos:[941, 232]
+[12:52:26] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:52:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9511393308639526, pos:[886, 422]
+[12:52:27] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:53:41] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.994194746017456, pos:[396, 179]
+[12:53:41] INFO [GuildRealmRaid | 185]: Failed..
+[12:53:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:53:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9611052870750427, pos:[1013, 308]
+[12:53:46] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:53:46] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:53:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:53:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9611575603485107, pos:[1013, 301]
+[12:53:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9786966443061829, pos:[641, 231]
+[12:53:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9611575603485107, pos:[1013, 301]
+[12:53:49] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9786582589149475, pos:[641, 231]
+[12:53:49] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:53:49] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9523832201957703, pos:[586, 421]
+[12:53:49] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:54:25] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.9941940307617188, pos:[396, 179]
+[12:54:25] INFO [GuildRealmRaid | 185]: Failed..
+[12:54:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:54:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.961388349533081, pos:[1013, 301]
+[12:54:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9786582589149475, pos:[641, 231]
+[12:54:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.961388349533081, pos:[1013, 301]
+[12:54:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9786582589149475, pos:[641, 231]
+[12:54:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:54:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9523846507072449, pos:[586, 421]
+[12:54:30] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:55:19] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.9941961169242859, pos:[396, 179]
+[12:55:19] INFO [GuildRealmRaid | 185]: Failed..
+[12:55:23] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:55:24] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.961388349533081, pos:[1013, 301]
+[12:55:24] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:55:24] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:55:26] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:55:26] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.955099880695343, pos:[1013, 295]
+[12:55:26] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9407966732978821, pos:[641, 230]
+[12:55:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.955099880695343, pos:[1013, 295]
+[12:55:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9408347606658936, pos:[641, 230]
+[12:55:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:55:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9405332207679749, pos:[586, 420]
+[12:55:28] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:56:28] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9582082629203796, pos:[536, 461]
+[12:56:28] INFO [GuildRealmRaid | 194]: Finishing...
+[12:56:32] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:56:33] INFO [GuildRealmRaid | 295]: completed 17, remaining 63 round
+[12:56:33] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:56:34] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:56:34] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9547542929649353, pos:[1013, 295]
+[12:56:35] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:56:35] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:56:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:56:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9662761688232422, pos:[1013, 288]
+[12:56:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9806385636329651, pos:[641, 229]
+[12:56:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9662761688232422, pos:[1013, 288]
+[12:56:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.980676531791687, pos:[641, 229]
+[12:56:38] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:56:38] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9529014229774475, pos:[586, 419]
+[12:56:38] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:56:56] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9104844927787781, pos:[350, 126]
+[12:56:56] INFO [GuildRealmRaid | 194]: Finishing...
+[12:57:02] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:57:03] INFO [GuildRealmRaid | 295]: completed 18, remaining 62 round
+[12:57:03] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:57:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:57:04] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.966415286064148, pos:[1013, 288]
+[12:57:05] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:57:05] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:57:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:57:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9410552978515625, pos:[1013, 282]
+[12:57:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9271191358566284, pos:[641, 228]
+[12:57:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9410552978515625, pos:[1013, 282]
+[12:57:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9271191358566284, pos:[641, 228]
+[12:57:07] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:57:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9207407236099243, pos:[586, 418]
+[12:57:08] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:58:04] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9358072280883789, pos:[536, 461]
+[12:58:04] INFO [GuildRealmRaid | 194]: Finishing...
+[12:58:09] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:10] INFO [GuildRealmRaid | 295]: completed 19, remaining 61 round
+[12:58:10] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:58:11] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:11] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9405438303947449, pos:[1013, 282]
+[12:58:11] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:58:11] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:58:13] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:13] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9678810834884644, pos:[1013, 275]
+[12:58:13] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.914860725402832, pos:[641, 228]
+[12:58:14] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9678810834884644, pos:[1013, 275]
+[12:58:14] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.914860725402832, pos:[641, 228]
+[12:58:14] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:15] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9360198974609375, pos:[586, 418]
+[12:58:15] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:58:38] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9550279974937439, pos:[536, 461]
+[12:58:38] INFO [GuildRealmRaid | 194]: Finishing...
+[12:58:42] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:43] INFO [GuildRealmRaid | 295]: completed 20, remaining 60 round
+[12:58:43] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:58:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9678539633750916, pos:[1013, 275]
+[12:58:44] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[12:58:44] DEBUG [GuildRealmRaid | 117]: scroll down
+[12:58:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9373894929885864, pos:[1013, 268]
+[12:58:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9159943461418152, pos:[641, 227]
+[12:58:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9373894929885864, pos:[1013, 268]
+[12:58:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9159271121025085, pos:[941, 227]
+[12:58:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:58:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9148530960083008, pos:[886, 417]
+[12:58:48] INFO [GuildRealmRaid | 158]: Click Attack..
+[12:59:39] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9233702421188354, pos:[350, 126]
+[12:59:39] INFO [GuildRealmRaid | 194]: Finishing...
+[12:59:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9159607291221619, pos:[641, 227]
+[12:59:45] INFO [GuildRealmRaid | 295]: completed 21, remaining 59 round
+[12:59:45] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[12:59:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:59:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9381529092788696, pos:[1013, 268]
+[12:59:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9158934950828552, pos:[641, 227]
+[12:59:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9381529092788696, pos:[1013, 268]
+[12:59:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9158598184585571, pos:[641, 227]
+[12:59:47] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[12:59:48] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9148516654968262, pos:[586, 417]
+[12:59:48] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:00:32] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9582082629203796, pos:[536, 461]
+[13:00:32] INFO [GuildRealmRaid | 194]: Finishing...
+[13:00:37] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:00:38] INFO [GuildRealmRaid | 295]: completed 22, remaining 58 round
+[13:00:38] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[13:00:39] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:00:39] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9381515979766846, pos:[1013, 268]
+[13:00:39] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[13:00:39] DEBUG [GuildRealmRaid | 117]: scroll down
+[13:00:41] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:00:41] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9652326107025146, pos:[1013, 262]
+[13:00:41] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.978824257850647, pos:[641, 227]
+[13:00:42] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9652326107025146, pos:[1013, 262]
+[13:00:42] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.978824257850647, pos:[641, 227]
+[13:00:42] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:00:43] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9525195360183716, pos:[586, 417]
+[13:00:43] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:01:13] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.9941954612731934, pos:[396, 179]
+[13:01:13] INFO [GuildRealmRaid | 185]: Failed..
+[13:01:17] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:01:17] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9650719165802002, pos:[1013, 262]
+[13:01:18] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[13:01:18] DEBUG [GuildRealmRaid | 117]: scroll down
+[13:01:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:01:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9489836692810059, pos:[1013, 255]
+[13:01:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9020547866821289, pos:[641, 225]
+[13:01:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9489836692810059, pos:[1013, 255]
+[13:01:20] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9021205902099609, pos:[641, 225]
+[13:01:21] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:01:21] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9108270406723022, pos:[586, 416]
+[13:01:21] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:01:40] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.9941954612731934, pos:[396, 179]
+[13:01:40] INFO [GuildRealmRaid | 185]: Failed..
+[13:01:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:01:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9503865242004395, pos:[1013, 255]
+[13:01:44] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9020547866821289, pos:[941, 225]
+[13:01:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9503865242004395, pos:[1013, 255]
+[13:01:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9020547866821289, pos:[941, 225]
+[13:01:45] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:01:46] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9108255505561829, pos:[886, 416]
+[13:01:46] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:03:17] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.994194746017456, pos:[396, 179]
+[13:03:17] INFO [GuildRealmRaid | 185]: Failed..
+[13:03:21] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:03:21] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9503878355026245, pos:[1013, 255]
+[13:03:22] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[13:03:22] DEBUG [GuildRealmRaid | 117]: scroll down
+[13:03:24] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:03:24] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.961301863193512, pos:[1013, 249]
+[13:03:24] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9738088846206665, pos:[641, 225]
+[13:03:24] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.961301863193512, pos:[1013, 249]
+[13:03:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9738473892211914, pos:[641, 225]
+[13:03:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:03:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9508391618728638, pos:[586, 415]
+[13:03:25] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:03:48] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.96037757396698, pos:[349, 126]
+[13:03:48] INFO [GuildRealmRaid | 194]: Finishing...
+[13:03:53] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:03:54] INFO [GuildRealmRaid | 295]: completed 23, remaining 57 round
+[13:03:54] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[13:03:55] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:03:55] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.961301863193512, pos:[1013, 249]
+[13:03:55] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[13:03:55] DEBUG [GuildRealmRaid | 117]: scroll down
+[13:03:57] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:03:58] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9648116230964661, pos:[1013, 242]
+[13:03:58] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9805620312690735, pos:[641, 225]
+[13:03:58] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9648116230964661, pos:[1013, 242]
+[13:03:58] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9805620312690735, pos:[641, 225]
+[13:03:58] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:03:59] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9528214931488037, pos:[586, 415]
+[13:03:59] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:04:22] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished2.png, value:0.9544178247451782, pos:[536, 461]
+[13:04:22] INFO [GuildRealmRaid | 194]: Finishing...
+[13:04:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9806378483772278, pos:[641, 225]
+[13:04:26] INFO [GuildRealmRaid | 295]: completed 24, remaining 56 round
+[13:04:26] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[13:04:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:04:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9651210308074951, pos:[1013, 242]
+[13:04:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9805620312690735, pos:[641, 225]
+[13:04:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9651210308074951, pos:[1013, 242]
+[13:04:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9805620312690735, pos:[641, 225]
+[13:04:28] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:04:29] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9528244137763977, pos:[586, 415]
+[13:04:29] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:05:21] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9615781903266907, pos:[350, 126]
+[13:05:21] INFO [GuildRealmRaid | 194]: Finishing...
+[13:05:25] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:05:26] INFO [GuildRealmRaid | 295]: completed 25, remaining 55 round
+[13:05:26] INFO [GuildRealmRaid | 289]: 
+
+==================Starting a new round==================
+[13:05:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:05:27] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9651210308074951, pos:[1013, 242]
+[13:05:28] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[13:05:28] DEBUG [GuildRealmRaid | 117]: scroll down
+[13:05:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:05:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9375453591346741, pos:[1013, 236]
+[13:05:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9213607907295227, pos:[641, 225]
+[13:05:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9375453591346741, pos:[1013, 236]
+[13:05:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9213607907295227, pos:[641, 225]
+[13:05:30] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:05:31] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9177549481391907, pos:[586, 415]
+[13:05:31] INFO [GuildRealmRaid | 158]: Click Attack..
+[13:07:01] DEBUG [GameControl | 584]: Found:./screenshots/Default/failed.png, value:0.9941961169242859, pos:[396, 179]
+[13:07:01] INFO [GuildRealmRaid | 185]: Failed..
+[13:07:05] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:07:05] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9371746182441711, pos:[1013, 236]
+[13:07:06] DEBUG [GuildRealmRaid | 97]: Looking for enemy
+[13:07:06] DEBUG [GuildRealmRaid | 117]: scroll down
+[13:07:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:07:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9665953516960144, pos:[1013, 229]
+[13:07:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9077851176261902, pos:[641, 225]
+[13:07:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/guildscroll.png, value:0.9665953516960144, pos:[1013, 229]
+[13:07:08] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9078183174133301, pos:[641, 225]
+[13:07:09] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.976505696773529, pos:[1071, 118]
+[13:07:09] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9094886779785156, pos:[586, 415]
+[13:07:09] INFO [GuildRealmRaid | 158]: Click Attack..

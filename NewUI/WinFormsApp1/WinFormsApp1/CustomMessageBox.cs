@@ -8,17 +8,16 @@ namespace NSLaunch
         private Label messageLabel;
         private Splitter splitter1;
         private Button okbutton;
-        private static object file;
+        //private static object file;
         string imagePath = string.Empty;
         string theme = null;
 
-        public CustomMessageBox(string message, String themename)
+        public CustomMessageBox(string message)
         {
             InitializeComponent();
             messageLabel.Text = message;
             open_button.Visible = false;
             imagePath = message;
-            theme = themename;
         }
 
         private void InitializeComponent()
@@ -138,9 +137,9 @@ namespace NSLaunch
             }
         }
 
-        public static void Showok(string message, String themename)
+        public static void Showok(string message)
         {
-            using (CustomMessageBox customMessageBox = new CustomMessageBox(message, themename))
+            using (CustomMessageBox customMessageBox = new CustomMessageBox(message))
             {
                 customMessageBox.TopMost = false;
                 customMessageBox.open_button.Visible = false;
@@ -150,9 +149,9 @@ namespace NSLaunch
             }
         }
 
-        public static void Showwanted(string message, String themename)
+        public static void Showwanted(string message)
         {
-            using (CustomMessageBox customMessageBox = new CustomMessageBox("ตรวจพบการส่ง Co-op Quest กรุณาตรวจสอบ หลังจากดำเนินการเสร็จ..", themename))
+            using (CustomMessageBox customMessageBox = new CustomMessageBox("ตรวจพบการส่ง Co-op Quest กรุณาตรวจสอบ หลังจากดำเนินการเสร็จ.."))
             {
                 customMessageBox.TopMost = false;
                 customMessageBox.Check_Theme();
@@ -163,9 +162,9 @@ namespace NSLaunch
             }
         }
 
-        public static void SettingDPI(string message, String themename)
+        public static void SettingDPI(string message)
         {
-            using (CustomMessageBox customMessageBox = new CustomMessageBox(message, themename))
+            using (CustomMessageBox customMessageBox = new CustomMessageBox(message))
             {
                 customMessageBox.TopMost = false;
                 customMessageBox.Check_Theme();

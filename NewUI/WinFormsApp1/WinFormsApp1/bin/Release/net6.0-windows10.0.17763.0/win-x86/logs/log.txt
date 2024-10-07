@@ -1,0 +1,4 @@
+[14:19:13] DEBUG [runprocess | 70]: GameMode:[RealmRaidW3F3], Server:[GB], Total Round:[30]
+[14:19:13] INFO [RealmRaidW3F3 | 316]: 
+
+==================Starting a new round==================

@@ -1,13 +1,13 @@
 {
-  "version": "Dev",
+  "version": "1.2.9build5",
   "eventtext": "Event",
   "roundoption": "keep",
   "theme": "system",
-  "disc": "1",
+  "disc": "2",
   "tomb": true,
-  "snowball": true,
-  "azure": true,
+  "snowball": false,
+  "azure": false,
   "kuro": true,
-  "changelog": "※ แก้ไขรูปภาพของปุ่ม Start ใน Event SP Enmu\n※ แก้ไขให้บันทึกค่า Config ของ Wanted Quest Option ทุกครั้งที่กดปุ่ม Start\n     ( ป้องกันบอทดึง Config ผิด เมื่อเปิดมากกว่า 1 จอ และมีการตั้งค่าต่างกัน )\n※ ปรับปรุงประสิทธิภาพของโหมด Event (สำหรับเซิร์ฟเวอร์จีน)\n※ ปรับปรุงหน้าตาของ UI หลักเล็กน้อย",
+  "changelog": "NSBot 1.2.9build5 (29 สิงหาคม 2024)\n※ แก้ไข Bug ไม่กดเริ่มเกมหลังจากจบรอบแรก ในโหมด Totem\n\nNSBot 1.2.9build2, 1.2.9build3 (25 สิงหาคม 2024)\n※ แก้ไข Bug จากการปรับปรุงโหมด Bondling Fairyland\n\nNSBot 1.2.9 (25 สิงหาคม 2024)\n※ ปรับปรุงการนับรอบ Bondling Fairyland : Pact และ Both\n    ให้นับรอบเฉพาะตอนจับสัตว์เลี้ยงได้\n※ Explore แบบทีม : ปรับให้หัวห้อง ออกห้องหลังจบบอสไวขึ้น",
   "notify": true
 }

@@ -1,0 +1,8 @@
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\NSLaunch.exe
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\NSLaunch.dll
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\NSLaunch.deps.json
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\NSLaunch.runtimeconfig.json
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\Microsoft.Windows.SDK.NET.dll
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\WinRT.Runtime.dll
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\Microsoft.Toolkit.Uwp.Notifications.dll
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\bin\Release\net8.0-windows10.0.17763.0\win-x64\publish\Newtonsoft.Json.dll

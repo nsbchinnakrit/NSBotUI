@@ -1,0 +1,45 @@
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.exe
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.deps.json
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.runtimeconfig.json
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.dll
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\Newtonsoft.Json.dll
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\Microsoft.Windows.SDK.NET.dll
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\WinRT.Runtime.dll
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.AssemblyReference.cache
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.CustomMessageBox.resources
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\WinFormsApp1.MainForm.resources
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.Properties.Resources.resources
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.GenerateResource.cache
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.GeneratedMSBuildEditorConfig.editorconfig
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.AssemblyInfoInputs.cache
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.AssemblyInfo.cs
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.CoreCompileInputs.cache
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.CopyComplete
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.dll
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\refint\NSLaunch.dll
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.genruntimeconfig.cache
+C:\LoLLiPoP\project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\ref\NSLaunch.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.exe
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.deps.json
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.runtimeconfig.json
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\Microsoft.Toolkit.Uwp.Notifications.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\Newtonsoft.Json.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\Microsoft.Windows.SDK.NET.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows10.0.17763.0\win-x86\WinRT.Runtime.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.AssemblyReference.cache
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.CustomMessageBox.resources
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\WinFormsApp1.MainForm.resources
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.Properties.Resources.resources
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.GenerateResource.cache
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.AssemblyInfoInputs.cache
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.AssemblyInfo.cs
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.CoreCompileInputs.cache
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.sourcelink.json
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.csproj.Up2Date
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\refint\NSLaunch.dll
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\NSLaunch.genruntimeconfig.cache
+D:\Github Project\NSBotUI\NewUI\WinFormsApp1\WinFormsApp1\obj\Release\net6.0-windows10.0.17763.0\win-x86\ref\NSLaunch.dll

@@ -1,6 +1,6 @@
 {
   "VALUE": {
-    "FIND_IMG_DELAY": 0.08,
+    "FIND_IMG_DELAY": 0.04,
     "WQ_JADE": false,
     "WQ_COIN": false,
     "WQ_SUSHI": false,
@@ -25,11 +25,13 @@
     "IMAGE_WQ_SUSHI": "./screenshots/Default/wq_sushi.png",
     "IMAGE_WQ_FOODDOG": "./screenshots/Default/wq_fooddog.png",
     "IMAGE_WQ_FOODCAT": "./screenshots/Default/wq_foodcat.png",
-    "IMAGE_EMPTY_SUSHI": "./screenshots/Default/emptyshshi.png"
+    "IMAGE_EMPTY_SUSHI": "./screenshots/Default/emptyshshi.png",
+    "IMAGE_EMPTY_SUSHI_CLOSE": "./screenshots/Default/emptyshshi_close.png"
   },
   "SOUL": {
     "IMAGE_SINGLE_SOUL_LOCK_PATH": "./screenshots/Soul/lock.png",
     "IMAGE_SINGLE_SOUL_STAT_PATH": "./screenshots/Soul/singlesoul.png",
+    "IMAGE_SINGLE_TOTEM_STAT_PATH": "./screenshots/Soul/singletotem.png",
     "IMAGE_SOUL_STARTCN_PATH": "./screenshots/Soul/startcn.png",
     "IMAGE_SOUL_INVITE_PATH": "./screenshots/Soul/teamInvite.png",
     "IMAGE_SOUL_AUTOACCEPT_PATH": "./screenshots/Soul/autoaccept.png",
@@ -158,7 +160,7 @@
     "IMAGE_BONDLING_INFO": "./screenshots/Bondling/info.png",
     "IMAGE_BONDLING_BRUSH": "./screenshots/Bondling/brush.png",
     "IMAGE_BONDLING_SUMMON": "./screenshots/Bondling/summon.png",
-    "IMAGE_BONDLING_KUROFACE": "./screenshots/Bondling/kuroface.png",
+    "IMAGE_BONDLING_TOMBFACE": "./screenshots/Bondling/tombface.png",
     "IMAGE_BONDLING_PACT1": "./screenshots/Bondling/pact1.png",
     "IMAGE_BONDLING_PACT2": "./screenshots/Bondling/pact2.png",
     "IMAGE_BONDLING_PACT3": "./screenshots/Bondling/pact3.png",

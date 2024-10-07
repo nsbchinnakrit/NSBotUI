@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NSLaunch</id>
+    <version>1.0.0</version>
+    <authors>NSLaunch</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/icon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\LoLLiPoP\project\NSBot\Gui\NewUI\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\win-x64\NSLaunch.runtimeconfig.json" target="lib\net6.0-windows7.0\NSLaunch.runtimeconfig.json" />
+    <file src="C:\LoLLiPoP\project\NSBot\Gui\NewUI\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\win-x64\NSLaunch.dll" target="lib\net6.0-windows7.0\NSLaunch.dll" />
+    <file src="C:\LoLLiPoP\project\NSBot\Gui\NewUI\WinFormsApp1\WinFormsApp1\icon.ico" target="content\icon.ico" />
+    <file src="C:\LoLLiPoP\project\NSBot\Gui\NewUI\WinFormsApp1\WinFormsApp1\icon.ico" target="contentFiles\any\net6.0-windows7.0\icon.ico" />
+    <file src="C:\LoLLiPoP\project\Users\nsbch\Videos\00000334.png" target="\00000334.png" />
+  </files>
+</package>

@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\github project\\nsbotui\\newui\\winformsapp1\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\2e5a2aba9b0851c4429845863ffb0b2faaff487f4ba538ca3800fe965731637d\\Process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\github project\\nsbotui\\newui\\winformsapp1\\winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\github project\\nsbotui\\newui\\winformsapp1\\winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\github project\\nsbotui\\newui\\winformsapp1\\winformsapp1\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\winformsapp1\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Process.cs",
+              "DocumentMoniker": "C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\2e5a2aba9b0851c4429845863ffb0b2faaff487f4ba538ca3800fe965731637d\\Process.cs",
+              "ToolTip": "C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\2e5a2aba9b0851c4429845863ffb0b2faaff487f4ba538ca3800fe965731637d\\Process.cs [Read Only]",
+              "ViewState": "AgIAABYIAAAAAAAAAAAqwGUHAAAFAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T09:07:22.944Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "api.cs",
+              "DocumentMoniker": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\Class\\api.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Class\\api.cs",
+              "ToolTip": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\Class\\api.cs",
+              "RelativeToolTip": "WinFormsApp1\\Class\\api.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:00:16.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomMessageBox.cs [Design]",
+              "DocumentMoniker": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\CustomMessageBox.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\CustomMessageBox.cs",
+              "ToolTip": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\CustomMessageBox.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\CustomMessageBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:40:49.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomMessageBox.cs",
+              "DocumentMoniker": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\CustomMessageBox.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\CustomMessageBox.cs",
+              "ToolTip": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\CustomMessageBox.cs",
+              "RelativeToolTip": "WinFormsApp1\\CustomMessageBox.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAhwKAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:35:37.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
+              "ToolTip": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\MainForm.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:19:07.376Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.Designer.cs",
+              "ToolTip": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.Designer.cs",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAqwGABAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:17:23.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
+              "ToolTip": "D:\\Github Project\\NSBotUI\\NewUI\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.cs",
+              "ViewState": "AgIAAKgCAAAAAAAAAAAqwMUCAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T17:17:58.572Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

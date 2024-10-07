@@ -1,0 +1,4 @@
+[16:05:32] DEBUG [runprocess | 70]: GameMode:[Event], Server:[GB], Total Round:[300]
+[16:05:32] INFO [Event | 202]: 
+
+==================Starting a new round==================

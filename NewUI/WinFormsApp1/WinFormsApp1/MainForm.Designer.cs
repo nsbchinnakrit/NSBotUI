@@ -40,7 +40,6 @@ namespace WinFormsApp1
             wnd_defsize = new Button();
             transparentPanel3 = new TransparentPanel();
             Tiptext1 = new Label();
-            MainBox = new GroupBox();
             WantedBox = new GroupBox();
             wt_food = new CheckBox();
             wt_sushi = new CheckBox();
@@ -65,11 +64,9 @@ namespace WinFormsApp1
             SoulEvo = new RadioButton();
             transparentPanel1 = new TransparentPanel();
             transparentPanel2 = new TransparentPanel();
-            SettingBox1 = new GroupBox();
             panel2 = new Panel();
             FindIMGBox = new GroupBox();
             domainUpDown1 = new DomainUpDown();
-            label1 = new Label();
             RoundOption = new GroupBox();
             ResetRound = new RadioButton();
             KeepRound = new RadioButton();
@@ -78,39 +75,26 @@ namespace WinFormsApp1
             dl_konleam = new Button();
             groupBox2 = new GroupBox();
             Kill_process = new Button();
-            ThemeBox = new GroupBox();
-            themedark = new RadioButton();
-            themelight = new RadioButton();
-            themesys = new RadioButton();
-            ThemeSupportNote = new Label();
             AfterFinishBox = new GroupBox();
             Notify = new CheckBox();
             Closegame = new CheckBox();
             Shutdown = new CheckBox();
-            AboutBox = new GroupBox();
             groupBox1 = new GroupBox();
             panel1 = new Panel();
             changelog = new Label();
             NSBotVer = new Label();
-            DevBox = new GroupBox();
             textBox1 = new TextBox();
-            textBoxLog = new TextBox();
             runpython = new Button();
             ArgCopyState = new Label();
             ArgGen = new Button();
-            RaidOption = new GroupBox();
-            RaidAll = new RadioButton();
-            Win3Fail3 = new RadioButton();
-            Win3 = new RadioButton();
             BondlingOption = new GroupBox();
             BondlingExp = new RadioButton();
             BondlingBoth = new RadioButton();
             BondlingPact = new RadioButton();
-            GameMode = new Button();
-            Setting1 = new Button();
-            About = new Button();
-            Tools = new Button();
-            BondlingSettingsBox = new GroupBox();
+            RaidOption = new GroupBox();
+            RaidAll = new RadioButton();
+            Win3Fail3 = new RadioButton();
+            Win3 = new RadioButton();
             splitContainer1 = new SplitContainer();
             Ultra = new RadioButton();
             Great = new RadioButton();
@@ -119,43 +103,47 @@ namespace WinFormsApp1
             DiscSelect = new Label();
             crystal = new CheckBox();
             pactselect = new Label();
-            rSnowBall = new RadioButton();
-            rKuro = new RadioButton();
-            rAzure = new RadioButton();
             rTomb = new RadioButton();
             Tomb = new CheckBox();
-            Kuro = new CheckBox();
+            rSnowBall = new RadioButton();
             Snowball = new CheckBox();
+            rAzure = new RadioButton();
             Azure = new CheckBox();
+            rKuro = new RadioButton();
+            Kuro = new CheckBox();
             splitter1 = new Splitter();
             transparentPanel5 = new TransparentPanel();
-            BondlingSt = new Button();
-            backgroundWorker1 = new BackgroundWorker();
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
+            tabPage2 = new TabPage();
+            tabPage3 = new TabPage();
+            tabPage4 = new TabPage();
+            tabPage5 = new TabPage();
             ServerSelectBox.SuspendLayout();
-            MainBox.SuspendLayout();
             WantedBox.SuspendLayout();
             RoundBox.SuspendLayout();
             TeamBox.SuspendLayout();
             GameModeBox.SuspendLayout();
-            SettingBox1.SuspendLayout();
             panel2.SuspendLayout();
             FindIMGBox.SuspendLayout();
             RoundOption.SuspendLayout();
             konleambox.SuspendLayout();
             groupBox2.SuspendLayout();
-            ThemeBox.SuspendLayout();
             AfterFinishBox.SuspendLayout();
-            AboutBox.SuspendLayout();
             groupBox1.SuspendLayout();
             panel1.SuspendLayout();
-            DevBox.SuspendLayout();
-            RaidOption.SuspendLayout();
             BondlingOption.SuspendLayout();
-            BondlingSettingsBox.SuspendLayout();
+            RaidOption.SuspendLayout();
             ((ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
+            tabPage3.SuspendLayout();
+            tabPage4.SuspendLayout();
+            tabPage5.SuspendLayout();
             SuspendLayout();
             // 
             // imgdelaysave
@@ -258,32 +246,15 @@ namespace WinFormsApp1
             // 
             Tiptext1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             Tiptext1.AutoSize = true;
-            Tiptext1.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
-            Tiptext1.ForeColor = Color.Firebrick;
-            Tiptext1.Location = new Point(15, 241);
+            Tiptext1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Tiptext1.ForeColor = Color.Brown;
+            Tiptext1.Location = new Point(15, 239);
             Tiptext1.Name = "Tiptext1";
-            Tiptext1.Size = new Size(48, 13);
+            Tiptext1.Size = new Size(54, 17);
             Tiptext1.TabIndex = 6;
             Tiptext1.Text = "Tiptext1";
             Tiptext1.TextAlign = ContentAlignment.BottomLeft;
             Tiptext1.UseMnemonic = false;
-            // 
-            // MainBox
-            // 
-            MainBox.Controls.Add(WantedBox);
-            MainBox.Controls.Add(RoundBox);
-            MainBox.Controls.Add(button2);
-            MainBox.Controls.Add(button1);
-            MainBox.Controls.Add(TeamBox);
-            MainBox.Controls.Add(GameModeBox);
-            MainBox.Controls.Add(transparentPanel1);
-            MainBox.Controls.Add(transparentPanel2);
-            MainBox.Location = new Point(15, 79);
-            MainBox.Name = "MainBox";
-            MainBox.Size = new Size(484, 162);
-            MainBox.TabIndex = 7;
-            MainBox.TabStop = false;
-            MainBox.Text = " ";
             // 
             // WantedBox
             // 
@@ -291,7 +262,7 @@ namespace WinFormsApp1
             WantedBox.Controls.Add(wt_sushi);
             WantedBox.Controls.Add(wt_coin);
             WantedBox.Controls.Add(wt_jade);
-            WantedBox.Location = new Point(11, 104);
+            WantedBox.Location = new Point(6, 97);
             WantedBox.Name = "WantedBox";
             WantedBox.Size = new Size(274, 46);
             WantedBox.TabIndex = 10;
@@ -346,7 +317,7 @@ namespace WinFormsApp1
             // 
             RoundBox.Controls.Add(InputRound);
             RoundBox.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            RoundBox.Location = new Point(292, 104);
+            RoundBox.Location = new Point(287, 97);
             RoundBox.Margin = new Padding(0);
             RoundBox.Name = "RoundBox";
             RoundBox.Size = new Size(90, 46);
@@ -369,11 +340,11 @@ namespace WinFormsApp1
             // 
             // button2
             // 
-            button2.BackColor = Color.LavenderBlush;
+            button2.BackColor = Color.Transparent;
             button2.FlatAppearance.BorderColor = Color.DarkGray;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(389, 112);
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            button2.Location = new Point(384, 105);
             button2.Name = "button2";
             button2.Size = new Size(85, 38);
             button2.TabIndex = 5;
@@ -385,8 +356,8 @@ namespace WinFormsApp1
             // 
             button1.FlatAppearance.BorderColor = Color.Gainsboro;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(389, 112);
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            button1.Location = new Point(384, 105);
             button1.Name = "button1";
             button1.Size = new Size(85, 38);
             button1.TabIndex = 22;
@@ -400,7 +371,7 @@ namespace WinFormsApp1
             TeamBox.Controls.Add(splitter3);
             TeamBox.Controls.Add(Team);
             TeamBox.Controls.Add(Solo);
-            TeamBox.Location = new Point(11, 13);
+            TeamBox.Location = new Point(6, 6);
             TeamBox.Name = "TeamBox";
             TeamBox.Size = new Size(96, 90);
             TeamBox.TabIndex = 12;
@@ -410,7 +381,7 @@ namespace WinFormsApp1
             // teamtext
             // 
             teamtext.Anchor = AnchorStyles.None;
-            teamtext.BackColor = SystemColors.InactiveBorder;
+            teamtext.BackColor = SystemColors.ControlLight;
             teamtext.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             teamtext.Location = new Point(6, 67);
             teamtext.Name = "teamtext";
@@ -436,7 +407,7 @@ namespace WinFormsApp1
             Team.Location = new Point(12, 40);
             Team.Margin = new Padding(0);
             Team.Name = "Team";
-            Team.Size = new Size(53, 19);
+            Team.Size = new Size(54, 19);
             Team.TabIndex = 10;
             Team.TabStop = true;
             Team.Text = "Team";
@@ -466,7 +437,7 @@ namespace WinFormsApp1
             GameModeBox.Controls.Add(ExploreRealm);
             GameModeBox.Controls.Add(Explore);
             GameModeBox.Controls.Add(SoulEvo);
-            GameModeBox.Location = new Point(118, 13);
+            GameModeBox.Location = new Point(113, 6);
             GameModeBox.Margin = new Padding(0);
             GameModeBox.Name = "GameModeBox";
             GameModeBox.Size = new Size(356, 90);
@@ -526,7 +497,7 @@ namespace WinFormsApp1
             ExploreRealm.AutoSize = true;
             ExploreRealm.Location = new Point(252, 25);
             ExploreRealm.Name = "ExploreRealm";
-            ExploreRealm.Size = new Size(102, 19);
+            ExploreRealm.Size = new Size(101, 19);
             ExploreRealm.TabIndex = 15;
             ExploreRealm.TabStop = true;
             ExploreRealm.Text = "Explore/Realm";
@@ -538,7 +509,7 @@ namespace WinFormsApp1
             Explore.AutoSize = true;
             Explore.Location = new Point(206, 57);
             Explore.Name = "Explore";
-            Explore.Size = new Size(64, 19);
+            Explore.Size = new Size(63, 19);
             Explore.TabIndex = 14;
             Explore.TabStop = true;
             Explore.Text = "Explore";
@@ -551,7 +522,7 @@ namespace WinFormsApp1
             SoulEvo.Checked = true;
             SoulEvo.Location = new Point(9, 25);
             SoulEvo.Name = "SoulEvo";
-            SoulEvo.Size = new Size(110, 19);
+            SoulEvo.Size = new Size(111, 19);
             SoulEvo.TabIndex = 13;
             SoulEvo.TabStop = true;
             SoulEvo.Text = "Soul/Evo/Totem";
@@ -560,38 +531,26 @@ namespace WinFormsApp1
             // 
             // transparentPanel1
             // 
-            transparentPanel1.Location = new Point(6, 13);
+            transparentPanel1.Location = new Point(0, 0);
             transparentPanel1.Name = "transparentPanel1";
             transparentPanel1.Size = new Size(382, 143);
             transparentPanel1.TabIndex = 15;
             // 
             // transparentPanel2
             // 
-            transparentPanel2.Location = new Point(372, 13);
+            transparentPanel2.Location = new Point(366, 0);
             transparentPanel2.Name = "transparentPanel2";
             transparentPanel2.Size = new Size(105, 93);
             transparentPanel2.TabIndex = 15;
             // 
-            // SettingBox1
-            // 
-            SettingBox1.Controls.Add(panel2);
-            SettingBox1.Location = new Point(569, 11);
-            SettingBox1.Name = "SettingBox1";
-            SettingBox1.Size = new Size(484, 162);
-            SettingBox1.TabIndex = 8;
-            SettingBox1.TabStop = false;
-            SettingBox1.Text = " ";
-            // 
             // panel2
             // 
             panel2.Controls.Add(FindIMGBox);
-            panel2.Controls.Add(label1);
             panel2.Controls.Add(RoundOption);
             panel2.Controls.Add(konleambox);
             panel2.Controls.Add(groupBox2);
-            panel2.Controls.Add(ThemeBox);
             panel2.Controls.Add(AfterFinishBox);
-            panel2.Location = new Point(9, 17);
+            panel2.Location = new Point(4, 8);
             panel2.Name = "panel2";
             panel2.Size = new Size(467, 136);
             panel2.TabIndex = 19;
@@ -600,12 +559,12 @@ namespace WinFormsApp1
             // 
             FindIMGBox.Controls.Add(imgdelaysave);
             FindIMGBox.Controls.Add(domainUpDown1);
-            FindIMGBox.Location = new Point(5, 5);
+            FindIMGBox.Location = new Point(6, 9);
             FindIMGBox.Name = "FindIMGBox";
-            FindIMGBox.Size = new Size(223, 55);
+            FindIMGBox.Size = new Size(213, 55);
             FindIMGBox.TabIndex = 2;
             FindIMGBox.TabStop = false;
-            FindIMGBox.Text = "Find Image Delay";
+            FindIMGBox.Text = "Find Image Delay Setting";
             // 
             // domainUpDown1
             // 
@@ -635,35 +594,25 @@ namespace WinFormsApp1
             domainUpDown1.TabIndex = 0;
             domainUpDown1.Text = "0.08";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.ForeColor = SystemColors.ControlDark;
-            label1.Location = new Point(158, 120);
-            label1.Name = "label1";
-            label1.Size = new Size(151, 15);
-            label1.TabIndex = 3;
-            label1.Text = "Scroll Mouse ลง เพื่อดูเพิ่มเติม";
-            // 
             // RoundOption
             // 
             RoundOption.Controls.Add(ResetRound);
             RoundOption.Controls.Add(KeepRound);
-            RoundOption.Location = new Point(240, 5);
+            RoundOption.Location = new Point(227, 9);
             RoundOption.Name = "RoundOption";
-            RoundOption.Size = new Size(222, 55);
+            RoundOption.Size = new Size(214, 55);
             RoundOption.TabIndex = 18;
             RoundOption.TabStop = false;
-            RoundOption.Text = "Setting round when stopped";
+            RoundOption.Text = "After press stop button";
             // 
             // ResetRound
             // 
             ResetRound.AutoSize = true;
-            ResetRound.Location = new Point(144, 24);
+            ResetRound.Location = new Point(119, 24);
             ResetRound.Name = "ResetRound";
-            ResetRound.Size = new Size(53, 19);
+            ResetRound.Size = new Size(91, 19);
             ResetRound.TabIndex = 1;
-            ResetRound.Text = "Reset";
+            ResetRound.Text = "Reset Round";
             ResetRound.UseVisualStyleBackColor = true;
             ResetRound.CheckedChanged += ResetRound_CheckedChanged;
             // 
@@ -671,7 +620,7 @@ namespace WinFormsApp1
             // 
             KeepRound.AutoSize = true;
             KeepRound.Checked = true;
-            KeepRound.Location = new Point(26, 24);
+            KeepRound.Location = new Point(16, 24);
             KeepRound.Name = "KeepRound";
             KeepRound.Size = new Size(89, 19);
             KeepRound.TabIndex = 0;
@@ -684,46 +633,46 @@ namespace WinFormsApp1
             // 
             konleambox.Controls.Add(openfolder);
             konleambox.Controls.Add(dl_konleam);
-            konleambox.Location = new Point(234, 134);
+            konleambox.Location = new Point(91, 138);
             konleambox.Name = "konleambox";
-            konleambox.Size = new Size(223, 55);
+            konleambox.Size = new Size(279, 55);
             konleambox.TabIndex = 0;
             konleambox.TabStop = false;
-            konleambox.Text = "Img Folder (wanted quest)";
+            konleambox.Text = "Wanted Quest Image Folder";
             // 
             // openfolder
             // 
-            openfolder.Location = new Point(28, 21);
+            openfolder.Location = new Point(19, 21);
             openfolder.Name = "openfolder";
-            openfolder.Size = new Size(75, 23);
+            openfolder.Size = new Size(111, 23);
             openfolder.TabIndex = 1;
-            openfolder.Text = "Open";
+            openfolder.Text = "Open Folder";
             openfolder.UseVisualStyleBackColor = true;
             openfolder.Click += openfolder_Click;
             // 
             // dl_konleam
             // 
-            dl_konleam.Location = new Point(114, 21);
+            dl_konleam.Location = new Point(152, 21);
             dl_konleam.Name = "dl_konleam";
-            dl_konleam.Size = new Size(75, 23);
+            dl_konleam.Size = new Size(106, 23);
             dl_konleam.TabIndex = 0;
-            dl_konleam.Text = "Delete";
+            dl_konleam.Text = "Delete Folder";
             dl_konleam.UseVisualStyleBackColor = true;
             dl_konleam.Click += dl_konleam_Click;
             // 
             // groupBox2
             // 
             groupBox2.Controls.Add(Kill_process);
-            groupBox2.Location = new Point(5, 134);
+            groupBox2.Location = new Point(228, 71);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(223, 55);
+            groupBox2.Size = new Size(213, 55);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Kill AutoClick Process";
             // 
             // Kill_process
             // 
-            Kill_process.Location = new Point(75, 21);
+            Kill_process.Location = new Point(67, 21);
             Kill_process.Name = "Kill_process";
             Kill_process.Size = new Size(75, 23);
             Kill_process.TabIndex = 0;
@@ -731,76 +680,17 @@ namespace WinFormsApp1
             Kill_process.UseVisualStyleBackColor = true;
             Kill_process.Click += Kill_process_Click;
             // 
-            // ThemeBox
-            // 
-            ThemeBox.Controls.Add(themedark);
-            ThemeBox.Controls.Add(themelight);
-            ThemeBox.Controls.Add(themesys);
-            ThemeBox.Controls.Add(ThemeSupportNote);
-            ThemeBox.Location = new Point(239, 62);
-            ThemeBox.Name = "ThemeBox";
-            ThemeBox.Size = new Size(223, 55);
-            ThemeBox.TabIndex = 16;
-            ThemeBox.TabStop = false;
-            ThemeBox.Text = "Theme";
-            // 
-            // themedark
-            // 
-            themedark.AutoSize = true;
-            themedark.Location = new Point(154, 22);
-            themedark.Name = "themedark";
-            themedark.Size = new Size(49, 19);
-            themedark.TabIndex = 2;
-            themedark.Text = "Dark";
-            themedark.UseVisualStyleBackColor = true;
-            themedark.CheckedChanged += themesys_CheckedChanged;
-            // 
-            // themelight
-            // 
-            themelight.AutoSize = true;
-            themelight.Location = new Point(88, 22);
-            themelight.Name = "themelight";
-            themelight.Size = new Size(52, 19);
-            themelight.TabIndex = 1;
-            themelight.Text = "Light";
-            themelight.UseVisualStyleBackColor = true;
-            themelight.CheckedChanged += themesys_CheckedChanged;
-            // 
-            // themesys
-            // 
-            themesys.AutoSize = true;
-            themesys.Location = new Point(19, 22);
-            themesys.Name = "themesys";
-            themesys.Size = new Size(63, 19);
-            themesys.TabIndex = 0;
-            themesys.TabStop = true;
-            themesys.Text = "System";
-            themesys.UseVisualStyleBackColor = true;
-            themesys.CheckedChanged += themesys_CheckedChanged;
-            // 
-            // ThemeSupportNote
-            // 
-            ThemeSupportNote.AutoSize = true;
-            ThemeSupportNote.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ThemeSupportNote.ForeColor = Color.Firebrick;
-            ThemeSupportNote.Location = new Point(49, 44);
-            ThemeSupportNote.Name = "ThemeSupportNote";
-            ThemeSupportNote.Size = new Size(171, 13);
-            ThemeSupportNote.TabIndex = 17;
-            ThemeSupportNote.Text = "*รองรับ Theme เฉพาะ Windows 11";
-            ThemeSupportNote.Visible = false;
-            // 
             // AfterFinishBox
             // 
             AfterFinishBox.Controls.Add(Notify);
             AfterFinishBox.Controls.Add(Closegame);
             AfterFinishBox.Controls.Add(Shutdown);
-            AfterFinishBox.Location = new Point(4, 62);
+            AfterFinishBox.Location = new Point(6, 71);
             AfterFinishBox.Name = "AfterFinishBox";
-            AfterFinishBox.Size = new Size(223, 55);
+            AfterFinishBox.Size = new Size(213, 55);
             AfterFinishBox.TabIndex = 15;
             AfterFinishBox.TabStop = false;
-            AfterFinishBox.Text = "After Finish";
+            AfterFinishBox.Text = "After completion";
             // 
             // Notify
             // 
@@ -833,41 +723,30 @@ namespace WinFormsApp1
             Shutdown.Text = "ปิดเครื่อง";
             Shutdown.UseVisualStyleBackColor = true;
             // 
-            // AboutBox
-            // 
-            AboutBox.Controls.Add(groupBox1);
-            AboutBox.Controls.Add(NSBotVer);
-            AboutBox.Location = new Point(569, 183);
-            AboutBox.Name = "AboutBox";
-            AboutBox.Size = new Size(484, 162);
-            AboutBox.TabIndex = 9;
-            AboutBox.TabStop = false;
-            AboutBox.Text = " ";
-            // 
             // groupBox1
             // 
             groupBox1.Controls.Add(panel1);
-            groupBox1.Location = new Point(5, 38);
+            groupBox1.Location = new Point(1, 29);
             groupBox1.Margin = new Padding(0);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(0);
-            groupBox1.Size = new Size(475, 118);
+            groupBox1.Size = new Size(472, 118);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             // 
             // panel1
             // 
             panel1.Controls.Add(changelog);
-            panel1.Location = new Point(4, 3);
+            panel1.Location = new Point(7, 14);
             panel1.Name = "panel1";
-            panel1.Size = new Size(467, 114);
+            panel1.Size = new Size(460, 98);
             panel1.TabIndex = 4;
             // 
             // changelog
             // 
             changelog.AutoSize = true;
             changelog.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            changelog.Location = new Point(4, 3);
+            changelog.Location = new Point(5, 5);
             changelog.Name = "changelog";
             changelog.Size = new Size(64, 19);
             changelog.TabIndex = 1;
@@ -877,44 +756,22 @@ namespace WinFormsApp1
             // 
             NSBotVer.AutoSize = true;
             NSBotVer.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            NSBotVer.Location = new Point(4, 10);
+            NSBotVer.Location = new Point(0, 4);
             NSBotVer.Name = "NSBotVer";
             NSBotVer.Size = new Size(213, 25);
             NSBotVer.TabIndex = 0;
             NSBotVer.Text = "Unable to load version";
             // 
-            // DevBox
-            // 
-            DevBox.Controls.Add(textBox1);
-            DevBox.Controls.Add(textBoxLog);
-            DevBox.Controls.Add(runpython);
-            DevBox.Controls.Add(ArgCopyState);
-            DevBox.Controls.Add(ArgGen);
-            DevBox.Location = new Point(569, 342);
-            DevBox.Name = "DevBox";
-            DevBox.Size = new Size(484, 162);
-            DevBox.TabIndex = 10;
-            DevBox.TabStop = false;
-            DevBox.Text = " ";
-            // 
             // textBox1
             // 
-            textBox1.Location = new Point(9, 18);
+            textBox1.Location = new Point(7, 9);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(462, 23);
             textBox1.TabIndex = 5;
             // 
-            // textBoxLog
-            // 
-            textBoxLog.Location = new Point(9, 72);
-            textBoxLog.Multiline = true;
-            textBoxLog.Name = "textBoxLog";
-            textBoxLog.Size = new Size(462, 79);
-            textBoxLog.TabIndex = 4;
-            // 
             // runpython
             // 
-            runpython.Location = new Point(11, 43);
+            runpython.Location = new Point(9, 34);
             runpython.Name = "runpython";
             runpython.Size = new Size(75, 23);
             runpython.TabIndex = 3;
@@ -926,7 +783,7 @@ namespace WinFormsApp1
             // 
             ArgCopyState.AutoSize = true;
             ArgCopyState.ForeColor = Color.SteelBlue;
-            ArgCopyState.Location = new Point(173, 48);
+            ArgCopyState.Location = new Point(171, 39);
             ArgCopyState.Name = "ArgCopyState";
             ArgCopyState.Size = new Size(216, 15);
             ArgCopyState.TabIndex = 2;
@@ -934,7 +791,7 @@ namespace WinFormsApp1
             // 
             // ArgGen
             // 
-            ArgGen.Location = new Point(92, 43);
+            ArgGen.Location = new Point(90, 34);
             ArgGen.Name = "ArgGen";
             ArgGen.Size = new Size(75, 23);
             ArgGen.TabIndex = 1;
@@ -942,12 +799,62 @@ namespace WinFormsApp1
             ArgGen.UseVisualStyleBackColor = true;
             ArgGen.Click += ArgGen_Click;
             // 
+            // BondlingOption
+            // 
+            BondlingOption.Controls.Add(BondlingExp);
+            BondlingOption.Controls.Add(BondlingBoth);
+            BondlingOption.Controls.Add(BondlingPact);
+            BondlingOption.Location = new Point(502, 17);
+            BondlingOption.Name = "BondlingOption";
+            BondlingOption.Size = new Size(96, 90);
+            BondlingOption.TabIndex = 18;
+            BondlingOption.TabStop = false;
+            BondlingOption.Text = "Select Mode";
+            // 
+            // BondlingExp
+            // 
+            BondlingExp.AutoSize = true;
+            BondlingExp.Checked = true;
+            BondlingExp.Location = new Point(12, 21);
+            BondlingExp.Margin = new Padding(0);
+            BondlingExp.Name = "BondlingExp";
+            BondlingExp.Size = new Size(63, 19);
+            BondlingExp.TabIndex = 11;
+            BondlingExp.TabStop = true;
+            BondlingExp.Text = "Explore";
+            BondlingExp.UseVisualStyleBackColor = true;
+            BondlingExp.Click += BondlingMode_CheckedChanged;
+            // 
+            // BondlingBoth
+            // 
+            BondlingBoth.AutoSize = true;
+            BondlingBoth.Location = new Point(12, 59);
+            BondlingBoth.Margin = new Padding(0);
+            BondlingBoth.Name = "BondlingBoth";
+            BondlingBoth.Size = new Size(50, 19);
+            BondlingBoth.TabIndex = 10;
+            BondlingBoth.Text = "Both";
+            BondlingBoth.UseVisualStyleBackColor = true;
+            BondlingBoth.Click += BondlingMode_CheckedChanged;
+            // 
+            // BondlingPact
+            // 
+            BondlingPact.AutoSize = true;
+            BondlingPact.Location = new Point(12, 40);
+            BondlingPact.Margin = new Padding(0);
+            BondlingPact.Name = "BondlingPact";
+            BondlingPact.Size = new Size(48, 19);
+            BondlingPact.TabIndex = 9;
+            BondlingPact.Text = "Pact";
+            BondlingPact.UseVisualStyleBackColor = true;
+            BondlingPact.Click += BondlingMode_CheckedChanged;
+            // 
             // RaidOption
             // 
             RaidOption.Controls.Add(RaidAll);
             RaidOption.Controls.Add(Win3Fail3);
             RaidOption.Controls.Add(Win3);
-            RaidOption.Location = new Point(966, 515);
+            RaidOption.Location = new Point(604, 17);
             RaidOption.Name = "RaidOption";
             RaidOption.Size = new Size(96, 90);
             RaidOption.TabIndex = 17;
@@ -993,121 +900,9 @@ namespace WinFormsApp1
             Win3.UseVisualStyleBackColor = true;
             Win3.Click += radioTeam_CheckedChanged;
             // 
-            // BondlingOption
-            // 
-            BondlingOption.Controls.Add(BondlingExp);
-            BondlingOption.Controls.Add(BondlingBoth);
-            BondlingOption.Controls.Add(BondlingPact);
-            BondlingOption.Location = new Point(864, 515);
-            BondlingOption.Name = "BondlingOption";
-            BondlingOption.Size = new Size(96, 90);
-            BondlingOption.TabIndex = 18;
-            BondlingOption.TabStop = false;
-            BondlingOption.Text = "Select Mode";
-            // 
-            // BondlingExp
-            // 
-            BondlingExp.AutoSize = true;
-            BondlingExp.Checked = true;
-            BondlingExp.Location = new Point(12, 21);
-            BondlingExp.Margin = new Padding(0);
-            BondlingExp.Name = "BondlingExp";
-            BondlingExp.Size = new Size(64, 19);
-            BondlingExp.TabIndex = 11;
-            BondlingExp.TabStop = true;
-            BondlingExp.Text = "Explore";
-            BondlingExp.UseVisualStyleBackColor = true;
-            BondlingExp.Click += BondlingMode_CheckedChanged;
-            // 
-            // BondlingBoth
-            // 
-            BondlingBoth.AutoSize = true;
-            BondlingBoth.Location = new Point(12, 59);
-            BondlingBoth.Margin = new Padding(0);
-            BondlingBoth.Name = "BondlingBoth";
-            BondlingBoth.Size = new Size(50, 19);
-            BondlingBoth.TabIndex = 10;
-            BondlingBoth.Text = "Both";
-            BondlingBoth.UseVisualStyleBackColor = true;
-            BondlingBoth.Click += BondlingMode_CheckedChanged;
-            // 
-            // BondlingPact
-            // 
-            BondlingPact.AutoSize = true;
-            BondlingPact.Location = new Point(12, 40);
-            BondlingPact.Margin = new Padding(0);
-            BondlingPact.Name = "BondlingPact";
-            BondlingPact.Size = new Size(48, 19);
-            BondlingPact.TabIndex = 9;
-            BondlingPact.Text = "Pact";
-            BondlingPact.UseVisualStyleBackColor = true;
-            BondlingPact.Click += BondlingMode_CheckedChanged;
-            // 
-            // GameMode
-            // 
-            GameMode.FlatAppearance.BorderColor = Color.LightGray;
-            GameMode.FlatStyle = FlatStyle.Flat;
-            GameMode.Location = new Point(15, 63);
-            GameMode.Margin = new Padding(0);
-            GameMode.Name = "GameMode";
-            GameMode.Size = new Size(86, 25);
-            GameMode.TabIndex = 12;
-            GameMode.Text = "Game Mode";
-            GameMode.UseVisualStyleBackColor = true;
-            GameMode.Click += GameMode_Click;
-            // 
-            // Setting1
-            // 
-            Setting1.FlatAppearance.BorderColor = Color.LightGray;
-            Setting1.FlatStyle = FlatStyle.Flat;
-            Setting1.Location = new Point(215, 63);
-            Setting1.Margin = new Padding(0);
-            Setting1.Name = "Setting1";
-            Setting1.Size = new Size(86, 25);
-            Setting1.TabIndex = 13;
-            Setting1.Text = "Settings";
-            Setting1.UseVisualStyleBackColor = true;
-            Setting1.Click += Setting1_Click;
-            // 
-            // About
-            // 
-            About.FlatAppearance.BorderColor = Color.LightGray;
-            About.FlatStyle = FlatStyle.Flat;
-            About.Location = new Point(303, 63);
-            About.Margin = new Padding(0);
-            About.Name = "About";
-            About.Size = new Size(86, 25);
-            About.TabIndex = 14;
-            About.Text = "About";
-            About.UseVisualStyleBackColor = true;
-            About.Click += About_Click;
-            // 
-            // Tools
-            // 
-            Tools.FlatAppearance.BorderColor = Color.LightGray;
-            Tools.FlatStyle = FlatStyle.Flat;
-            Tools.Location = new Point(454, 63);
-            Tools.Name = "Tools";
-            Tools.Size = new Size(45, 25);
-            Tools.TabIndex = 15;
-            Tools.Text = "Tools";
-            Tools.UseVisualStyleBackColor = true;
-            Tools.Click += Tools_Click;
-            // 
-            // BondlingSettingsBox
-            // 
-            BondlingSettingsBox.Controls.Add(splitContainer1);
-            BondlingSettingsBox.Controls.Add(transparentPanel5);
-            BondlingSettingsBox.Location = new Point(19, 268);
-            BondlingSettingsBox.Name = "BondlingSettingsBox";
-            BondlingSettingsBox.Size = new Size(473, 163);
-            BondlingSettingsBox.TabIndex = 19;
-            BondlingSettingsBox.TabStop = false;
-            BondlingSettingsBox.Text = " ";
-            // 
             // splitContainer1
             // 
-            splitContainer1.Location = new Point(14, 23);
+            splitContainer1.Location = new Point(8, 13);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -1121,17 +916,17 @@ namespace WinFormsApp1
             // 
             // splitContainer1.Panel2
             // 
-            splitContainer1.Panel2.BackColor = SystemColors.ControlLight;
+            splitContainer1.Panel2.BackColor = SystemColors.GradientInactiveCaption;
             splitContainer1.Panel2.Controls.Add(crystal);
             splitContainer1.Panel2.Controls.Add(pactselect);
-            splitContainer1.Panel2.Controls.Add(rSnowBall);
-            splitContainer1.Panel2.Controls.Add(rKuro);
-            splitContainer1.Panel2.Controls.Add(rAzure);
             splitContainer1.Panel2.Controls.Add(rTomb);
             splitContainer1.Panel2.Controls.Add(Tomb);
-            splitContainer1.Panel2.Controls.Add(Kuro);
+            splitContainer1.Panel2.Controls.Add(rSnowBall);
             splitContainer1.Panel2.Controls.Add(Snowball);
+            splitContainer1.Panel2.Controls.Add(rAzure);
             splitContainer1.Panel2.Controls.Add(Azure);
+            splitContainer1.Panel2.Controls.Add(rKuro);
+            splitContainer1.Panel2.Controls.Add(Kuro);
             splitContainer1.Panel2.Controls.Add(splitter1);
             splitContainer1.Size = new Size(457, 125);
             splitContainer1.SplitterDistance = 96;
@@ -1140,7 +935,7 @@ namespace WinFormsApp1
             // Ultra
             // 
             Ultra.AutoSize = true;
-            Ultra.BackColor = SystemColors.WindowFrame;
+            Ultra.BackColor = SystemColors.GradientInactiveCaption;
             Ultra.Location = new Point(42, 88);
             Ultra.Name = "Ultra";
             Ultra.Size = new Size(50, 19);
@@ -1153,7 +948,7 @@ namespace WinFormsApp1
             // Great
             // 
             Great.AutoSize = true;
-            Great.BackColor = SystemColors.WindowFrame;
+            Great.BackColor = SystemColors.GradientInactiveCaption;
             Great.Location = new Point(42, 53);
             Great.Name = "Great";
             Great.Size = new Size(53, 19);
@@ -1165,7 +960,7 @@ namespace WinFormsApp1
             // Basic
             // 
             Basic.AutoSize = true;
-            Basic.BackColor = SystemColors.WindowFrame;
+            Basic.BackColor = SystemColors.GradientInactiveCaption;
             Basic.Checked = true;
             Basic.Location = new Point(42, 18);
             Basic.Name = "Basic";
@@ -1178,7 +973,7 @@ namespace WinFormsApp1
             // 
             // splitter2
             // 
-            splitter2.BackColor = SystemColors.WindowFrame;
+            splitter2.BackColor = SystemColors.GradientInactiveCaption;
             splitter2.Dock = DockStyle.Right;
             splitter2.Location = new Point(36, 0);
             splitter2.Name = "splitter2";
@@ -1189,7 +984,9 @@ namespace WinFormsApp1
             // DiscSelect
             // 
             DiscSelect.AutoSize = true;
+            DiscSelect.BackColor = SystemColors.MenuHighlight;
             DiscSelect.Font = new Font("Forte", 20F, FontStyle.Bold, GraphicsUnit.Point);
+            DiscSelect.ForeColor = SystemColors.ButtonHighlight;
             DiscSelect.ImageAlign = ContentAlignment.TopCenter;
             DiscSelect.Location = new Point(4, 3);
             DiscSelect.Margin = new Padding(0);
@@ -1203,7 +1000,7 @@ namespace WinFormsApp1
             // crystal
             // 
             crystal.AutoSize = true;
-            crystal.BackColor = SystemColors.AppWorkspace;
+            crystal.BackColor = SystemColors.GradientInactiveCaption;
             crystal.Location = new Point(36, 54);
             crystal.Name = "crystal";
             crystal.Padding = new Padding(4, 2, 0, 0);
@@ -1223,52 +1020,13 @@ namespace WinFormsApp1
             pactselect.TabIndex = 5;
             pactselect.Text = "Select  Pact-forming";
             // 
-            // rSnowBall
-            // 
-            rSnowBall.AutoSize = true;
-            rSnowBall.BackColor = SystemColors.WindowFrame;
-            rSnowBall.Location = new Point(112, 94);
-            rSnowBall.Name = "rSnowBall";
-            rSnowBall.Size = new Size(73, 19);
-            rSnowBall.TabIndex = 22;
-            rSnowBall.TabStop = true;
-            rSnowBall.Text = "Snowball";
-            rSnowBall.UseVisualStyleBackColor = false;
-            rSnowBall.CheckedChanged += crystal_pact_CheckedChanged;
-            // 
-            // rKuro
-            // 
-            rKuro.AutoSize = true;
-            rKuro.BackColor = SystemColors.WindowFrame;
-            rKuro.Location = new Point(292, 94);
-            rKuro.Name = "rKuro";
-            rKuro.Size = new Size(50, 19);
-            rKuro.TabIndex = 24;
-            rKuro.TabStop = true;
-            rKuro.Text = "Kuro";
-            rKuro.UseVisualStyleBackColor = false;
-            rKuro.CheckedChanged += crystal_pact_CheckedChanged;
-            // 
-            // rAzure
-            // 
-            rAzure.AutoSize = true;
-            rAzure.BackColor = SystemColors.WindowFrame;
-            rAzure.Location = new Point(194, 94);
-            rAzure.Name = "rAzure";
-            rAzure.Size = new Size(89, 19);
-            rAzure.TabIndex = 23;
-            rAzure.TabStop = true;
-            rAzure.Text = "Azure Basan";
-            rAzure.UseVisualStyleBackColor = false;
-            rAzure.CheckedChanged += crystal_pact_CheckedChanged;
-            // 
             // rTomb
             // 
             rTomb.AutoSize = true;
-            rTomb.BackColor = SystemColors.WindowFrame;
+            rTomb.BackColor = SystemColors.GradientActiveCaption;
             rTomb.Location = new Point(13, 94);
             rTomb.Name = "rTomb";
-            rTomb.Size = new Size(90, 19);
+            rTomb.Size = new Size(91, 19);
             rTomb.TabIndex = 21;
             rTomb.TabStop = true;
             rTomb.Text = "Tomb Guard";
@@ -1278,35 +1036,34 @@ namespace WinFormsApp1
             // Tomb
             // 
             Tomb.AutoSize = true;
-            Tomb.BackColor = SystemColors.WindowFrame;
+            Tomb.BackColor = SystemColors.GradientActiveCaption;
             Tomb.Checked = true;
             Tomb.CheckState = CheckState.Checked;
             Tomb.Location = new Point(13, 95);
             Tomb.Name = "Tomb";
-            Tomb.Size = new Size(91, 19);
+            Tomb.Size = new Size(92, 19);
             Tomb.TabIndex = 0;
             Tomb.Text = "Tomb Guard";
             Tomb.UseVisualStyleBackColor = false;
             Tomb.CheckedChanged += pact_CheckedChanged;
             // 
-            // Kuro
+            // rSnowBall
             // 
-            Kuro.AutoSize = true;
-            Kuro.BackColor = SystemColors.WindowFrame;
-            Kuro.Checked = true;
-            Kuro.CheckState = CheckState.Checked;
-            Kuro.Location = new Point(292, 95);
-            Kuro.Name = "Kuro";
-            Kuro.Size = new Size(51, 19);
-            Kuro.TabIndex = 3;
-            Kuro.Text = "Kuro";
-            Kuro.UseVisualStyleBackColor = false;
-            Kuro.CheckedChanged += pact_CheckedChanged;
+            rSnowBall.AutoSize = true;
+            rSnowBall.BackColor = SystemColors.GradientActiveCaption;
+            rSnowBall.Location = new Point(112, 94);
+            rSnowBall.Name = "rSnowBall";
+            rSnowBall.Size = new Size(73, 19);
+            rSnowBall.TabIndex = 22;
+            rSnowBall.TabStop = true;
+            rSnowBall.Text = "Snowball";
+            rSnowBall.UseVisualStyleBackColor = false;
+            rSnowBall.CheckedChanged += crystal_pact_CheckedChanged;
             // 
             // Snowball
             // 
             Snowball.AutoSize = true;
-            Snowball.BackColor = SystemColors.WindowFrame;
+            Snowball.BackColor = SystemColors.GradientActiveCaption;
             Snowball.Checked = true;
             Snowball.CheckState = CheckState.Checked;
             Snowball.Location = new Point(112, 95);
@@ -1317,10 +1074,23 @@ namespace WinFormsApp1
             Snowball.UseVisualStyleBackColor = false;
             Snowball.CheckedChanged += pact_CheckedChanged;
             // 
+            // rAzure
+            // 
+            rAzure.AutoSize = true;
+            rAzure.BackColor = SystemColors.GradientActiveCaption;
+            rAzure.Location = new Point(194, 94);
+            rAzure.Name = "rAzure";
+            rAzure.Size = new Size(89, 19);
+            rAzure.TabIndex = 23;
+            rAzure.TabStop = true;
+            rAzure.Text = "Azure Basan";
+            rAzure.UseVisualStyleBackColor = false;
+            rAzure.CheckedChanged += crystal_pact_CheckedChanged;
+            // 
             // Azure
             // 
             Azure.AutoSize = true;
-            Azure.BackColor = SystemColors.WindowFrame;
+            Azure.BackColor = SystemColors.GradientActiveCaption;
             Azure.Checked = true;
             Azure.CheckState = CheckState.Checked;
             Azure.Location = new Point(194, 95);
@@ -1331,9 +1101,36 @@ namespace WinFormsApp1
             Azure.UseVisualStyleBackColor = false;
             Azure.CheckedChanged += pact_CheckedChanged;
             // 
+            // rKuro
+            // 
+            rKuro.AutoSize = true;
+            rKuro.BackColor = SystemColors.GradientActiveCaption;
+            rKuro.Location = new Point(292, 94);
+            rKuro.Name = "rKuro";
+            rKuro.Size = new Size(50, 19);
+            rKuro.TabIndex = 24;
+            rKuro.TabStop = true;
+            rKuro.Text = "Kuro";
+            rKuro.UseVisualStyleBackColor = false;
+            rKuro.CheckedChanged += crystal_pact_CheckedChanged;
+            // 
+            // Kuro
+            // 
+            Kuro.AutoSize = true;
+            Kuro.BackColor = SystemColors.GradientActiveCaption;
+            Kuro.Checked = true;
+            Kuro.CheckState = CheckState.Checked;
+            Kuro.Location = new Point(292, 95);
+            Kuro.Name = "Kuro";
+            Kuro.Size = new Size(51, 19);
+            Kuro.TabIndex = 3;
+            Kuro.Text = "Kuro";
+            Kuro.UseVisualStyleBackColor = false;
+            Kuro.CheckedChanged += pact_CheckedChanged;
+            // 
             // splitter1
             // 
-            splitter1.BackColor = SystemColors.WindowFrame;
+            splitter1.BackColor = SystemColors.GradientActiveCaption;
             splitter1.Dock = DockStyle.Bottom;
             splitter1.Location = new Point(0, 80);
             splitter1.Name = "splitter1";
@@ -1343,42 +1140,101 @@ namespace WinFormsApp1
             // 
             // transparentPanel5
             // 
-            transparentPanel5.Location = new Point(8, 20);
+            transparentPanel5.Location = new Point(2, 10);
             transparentPanel5.Name = "transparentPanel5";
             transparentPanel5.Size = new Size(468, 134);
             transparentPanel5.TabIndex = 21;
             // 
-            // BondlingSt
+            // tabControl1
             // 
-            BondlingSt.FlatAppearance.BorderColor = Color.LightGray;
-            BondlingSt.FlatStyle = FlatStyle.Flat;
-            BondlingSt.Location = new Point(103, 63);
-            BondlingSt.Margin = new Padding(0);
-            BondlingSt.Name = "BondlingSt";
-            BondlingSt.Size = new Size(110, 25);
-            BondlingSt.TabIndex = 20;
-            BondlingSt.Text = "Bondling Settings";
-            BondlingSt.UseVisualStyleBackColor = true;
-            BondlingSt.Click += BondlingSt_Click;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage5);
+            tabControl1.Location = new Point(15, 63);
+            tabControl1.Name = "tabControl1";
+            tabControl1.Padding = new Point(18, 3);
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(484, 178);
+            tabControl1.TabIndex = 21;
+            // 
+            // tabPage1
+            // 
+            tabPage1.Controls.Add(BondlingOption);
+            tabPage1.Controls.Add(RaidOption);
+            tabPage1.Controls.Add(WantedBox);
+            tabPage1.Controls.Add(TeamBox);
+            tabPage1.Controls.Add(RoundBox);
+            tabPage1.Controls.Add(GameModeBox);
+            tabPage1.Controls.Add(transparentPanel1);
+            tabPage1.Controls.Add(transparentPanel2);
+            tabPage1.Controls.Add(button2);
+            tabPage1.Controls.Add(button1);
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(476, 150);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Game Mode";
+            tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            tabPage2.Controls.Add(splitContainer1);
+            tabPage2.Controls.Add(transparentPanel5);
+            tabPage2.Location = new Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(476, 150);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Bondling Settings";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            tabPage3.Controls.Add(panel2);
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(476, 150);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "Settings";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            tabPage4.Controls.Add(groupBox1);
+            tabPage4.Controls.Add(NSBotVer);
+            tabPage4.Location = new Point(4, 24);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new Padding(3);
+            tabPage4.Size = new Size(476, 150);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "About";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            tabPage5.Controls.Add(textBox1);
+            tabPage5.Controls.Add(ArgGen);
+            tabPage5.Controls.Add(runpython);
+            tabPage5.Controls.Add(ArgCopyState);
+            tabPage5.Location = new Point(4, 24);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Padding = new Padding(3);
+            tabPage5.Size = new Size(476, 150);
+            tabPage5.TabIndex = 4;
+            tabPage5.Text = "DEV";
+            tabPage5.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(514, 257);
-            Controls.Add(SettingBox1);
-            Controls.Add(RaidOption);
-            Controls.Add(BondlingSt);
-            Controls.Add(BondlingOption);
-            Controls.Add(BondlingSettingsBox);
-            Controls.Add(Tools);
             Controls.Add(ServerSelectBox);
-            Controls.Add(About);
-            Controls.Add(Setting1);
-            Controls.Add(GameMode);
-            Controls.Add(DevBox);
-            Controls.Add(AboutBox);
-            Controls.Add(MainBox);
+            Controls.Add(tabControl1);
             Controls.Add(Tiptext1);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -1389,7 +1245,6 @@ namespace WinFormsApp1
             TopMost = true;
             ServerSelectBox.ResumeLayout(false);
             ServerSelectBox.PerformLayout();
-            MainBox.ResumeLayout(false);
             WantedBox.ResumeLayout(false);
             WantedBox.PerformLayout();
             RoundBox.ResumeLayout(false);
@@ -1398,36 +1253,35 @@ namespace WinFormsApp1
             TeamBox.PerformLayout();
             GameModeBox.ResumeLayout(false);
             GameModeBox.PerformLayout();
-            SettingBox1.ResumeLayout(false);
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             FindIMGBox.ResumeLayout(false);
             RoundOption.ResumeLayout(false);
             RoundOption.PerformLayout();
             konleambox.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
-            ThemeBox.ResumeLayout(false);
-            ThemeBox.PerformLayout();
             AfterFinishBox.ResumeLayout(false);
             AfterFinishBox.PerformLayout();
-            AboutBox.ResumeLayout(false);
-            AboutBox.PerformLayout();
             groupBox1.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            DevBox.ResumeLayout(false);
-            DevBox.PerformLayout();
-            RaidOption.ResumeLayout(false);
-            RaidOption.PerformLayout();
             BondlingOption.ResumeLayout(false);
             BondlingOption.PerformLayout();
-            BondlingSettingsBox.ResumeLayout(false);
+            RaidOption.ResumeLayout(false);
+            RaidOption.PerformLayout();
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel1.PerformLayout();
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();
             ((ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
+            tabPage3.ResumeLayout(false);
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            tabPage5.ResumeLayout(false);
+            tabPage5.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1441,8 +1295,6 @@ namespace WinFormsApp1
         private RadioButton radioButtonJP;
         private RadioButton radioButtonGB;
         private Label Tiptext1;
-        private GroupBox MainBox;
-        private GroupBox SettingBox1;
         private GroupBox AfterFinishBox;
         private CheckBox Closegame;
         private CheckBox Shutdown;
@@ -1451,12 +1303,9 @@ namespace WinFormsApp1
         private GroupBox konleambox;
         private Button openfolder;
         private Button dl_konleam;
-        private GroupBox AboutBox;
         private GroupBox groupBox1;
         private Panel panel1;
-        private Label changelog;
         private Label NSBotVer;
-        private GroupBox DevBox;
         private Button runpython;
         private Label ArgCopyState;
         private Button ArgGen;
@@ -1474,19 +1323,9 @@ namespace WinFormsApp1
         private GroupBox TeamBox;
         private RadioButton Team;
         private RadioButton Solo;
-        private Button GameMode;
-        private Button Setting1;
-        private Button About;
-        private GroupBox ThemeBox;
-        private RadioButton themelight;
-        private RadioButton themesys;
-        private RadioButton themedark;
         private TransparentPanel transparentPanel1;
         private TransparentPanel transparentPanel3;
         private TransparentPanel transparentPanel2;
-        private Button Tools;
-        private GroupBox BondlingSettingsBox;
-        private Button BondlingSt;
         private CheckBox Kuro;
         private CheckBox Azure;
         private CheckBox Snowball;
@@ -1505,10 +1344,7 @@ namespace WinFormsApp1
         private RadioButton rAzure;
         private RadioButton rTomb;
         private TransparentPanel transparentPanel5;
-        private Label ThemeSupportNote;
-        private TextBox textBoxLog;
         private TextBox textBox1;
-        private BackgroundWorker backgroundWorker1;
         private RadioButton RaidAll;
         private GroupBox RoundOption;
         private RadioButton ResetRound;
@@ -1530,8 +1366,14 @@ namespace WinFormsApp1
         private CheckBox wt_jade;
         private Label teamtext;
         private CheckBox Notify;
-        private Label label1;
         private GroupBox FindIMGBox;
         private DomainUpDown domainUpDown1;
+        private TabControl tabControl1;
+        private TabPage tabPage1;
+        private TabPage tabPage2;
+        private TabPage tabPage3;
+        private TabPage tabPage4;
+        private TabPage tabPage5;
+        private Label changelog;
     }
 }

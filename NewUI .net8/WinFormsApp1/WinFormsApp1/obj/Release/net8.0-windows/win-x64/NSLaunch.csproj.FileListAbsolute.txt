@@ -1,0 +1,10 @@
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.csproj.AssemblyReference.cache
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.CustomMessageBox.resources
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\WinFormsApp1.MainForm.resources
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.Properties.Resources.resources
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.csproj.GenerateResource.cache
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.AssemblyInfoInputs.cache
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.AssemblyInfo.cs
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.csproj.CoreCompileInputs.cache
+D:\Github Project\NSBotUI\NewUI .net8\WinFormsApp1\WinFormsApp1\obj\Release\net8.0-windows\win-x64\NSLaunch.sourcelink.json
