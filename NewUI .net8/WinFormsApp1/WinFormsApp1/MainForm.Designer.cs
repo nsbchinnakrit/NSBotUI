@@ -119,6 +119,7 @@ namespace WinFormsApp1
             tabPage3 = new TabPage();
             tabPage4 = new TabPage();
             tabPage5 = new TabPage();
+            numericUpDown1 = new NumericUpDown();
             ServerSelectBox.SuspendLayout();
             WantedBox.SuspendLayout();
             RoundBox.SuspendLayout();
@@ -144,6 +145,7 @@ namespace WinFormsApp1
             tabPage3.SuspendLayout();
             tabPage4.SuspendLayout();
             tabPage5.SuspendLayout();
+            ((ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // imgdelaysave
@@ -264,7 +266,7 @@ namespace WinFormsApp1
             WantedBox.Controls.Add(wt_jade);
             WantedBox.Location = new Point(6, 97);
             WantedBox.Name = "WantedBox";
-            WantedBox.Size = new Size(274, 46);
+            WantedBox.Size = new Size(273, 46);
             WantedBox.TabIndex = 10;
             WantedBox.TabStop = false;
             WantedBox.Text = "Wanted Quest";
@@ -272,18 +274,18 @@ namespace WinFormsApp1
             // wt_food
             // 
             wt_food.AutoSize = true;
-            wt_food.Location = new Point(210, 19);
+            wt_food.Location = new Point(200, 19);
             wt_food.Name = "wt_food";
-            wt_food.Size = new Size(53, 19);
+            wt_food.Size = new Size(73, 19);
             wt_food.TabIndex = 3;
-            wt_food.Text = "Food";
+            wt_food.Text = "Pet Food";
             wt_food.UseVisualStyleBackColor = true;
             wt_food.CheckedChanged += wt_CheckedChanged;
             // 
             // wt_sushi
             // 
             wt_sushi.AutoSize = true;
-            wt_sushi.Location = new Point(140, 19);
+            wt_sushi.Location = new Point(135, 19);
             wt_sushi.Name = "wt_sushi";
             wt_sushi.Size = new Size(54, 19);
             wt_sushi.TabIndex = 2;
@@ -294,7 +296,7 @@ namespace WinFormsApp1
             // wt_coin
             // 
             wt_coin.AutoSize = true;
-            wt_coin.Location = new Point(74, 19);
+            wt_coin.Location = new Point(72, 19);
             wt_coin.Name = "wt_coin";
             wt_coin.Size = new Size(51, 19);
             wt_coin.TabIndex = 1;
@@ -317,10 +319,10 @@ namespace WinFormsApp1
             // 
             RoundBox.Controls.Add(InputRound);
             RoundBox.Font = new Font("Segoe UI", 9F);
-            RoundBox.Location = new Point(287, 97);
+            RoundBox.Location = new Point(283, 97);
             RoundBox.Margin = new Padding(0);
             RoundBox.Name = "RoundBox";
-            RoundBox.Size = new Size(90, 46);
+            RoundBox.Size = new Size(94, 46);
             RoundBox.TabIndex = 13;
             RoundBox.TabStop = false;
             RoundBox.Text = "Total Round";
@@ -328,7 +330,7 @@ namespace WinFormsApp1
             // InputRound
             // 
             InputRound.Anchor = AnchorStyles.Bottom;
-            InputRound.Location = new Point(10, 16);
+            InputRound.Location = new Point(13, 17);
             InputRound.Margin = new Padding(0);
             InputRound.MaxLength = 10;
             InputRound.Name = "InputRound";
@@ -475,10 +477,10 @@ namespace WinFormsApp1
             GuildRealm.AutoSize = true;
             GuildRealm.Location = new Point(107, 57);
             GuildRealm.Name = "GuildRealm";
-            GuildRealm.Size = new Size(83, 19);
+            GuildRealm.Size = new Size(89, 19);
             GuildRealm.TabIndex = 17;
             GuildRealm.TabStop = true;
-            GuildRealm.Text = "Guild Ralm";
+            GuildRealm.Text = "Guild Realm";
             GuildRealm.UseVisualStyleBackColor = true;
             GuildRealm.CheckedChanged += radioGameMode_CheckedChanged;
             // 
@@ -487,10 +489,10 @@ namespace WinFormsApp1
             RealmRaid.AutoSize = true;
             RealmRaid.Location = new Point(16, 57);
             RealmRaid.Name = "RealmRaid";
-            RealmRaid.Size = new Size(75, 19);
+            RealmRaid.Size = new Size(81, 19);
             RealmRaid.TabIndex = 16;
             RealmRaid.TabStop = true;
-            RealmRaid.Text = "RalmRaid";
+            RealmRaid.Text = "RealmRaid";
             RealmRaid.UseVisualStyleBackColor = true;
             RealmRaid.CheckedChanged += radioGameMode_CheckedChanged;
             // 
@@ -1230,6 +1232,13 @@ namespace WinFormsApp1
             tabPage5.Text = "DEV";
             tabPage5.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(0, 0);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(120, 23);
+            numericUpDown1.TabIndex = 0;
+            // 
             // MainForm
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -1239,6 +1248,7 @@ namespace WinFormsApp1
             Controls.Add(tabControl1);
             Controls.Add(Tiptext1);
             Font = new Font("Segoe UI", 9F);
+            ForeColor = SystemColors.ControlText;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "MainForm";
@@ -1284,6 +1294,7 @@ namespace WinFormsApp1
             tabPage4.PerformLayout();
             tabPage5.ResumeLayout(false);
             tabPage5.PerformLayout();
+            ((ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1377,5 +1388,6 @@ namespace WinFormsApp1
         private TabPage tabPage5;
         private Label changelog;
         private CheckBox MarkBoss;
+        private NumericUpDown numericUpDown1;
     }
 }

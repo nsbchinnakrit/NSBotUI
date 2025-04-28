@@ -803,11 +803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
+      "projectUniqueName": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
       "projectName": "NSLaunch",
-      "projectPath": "D:\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
+      "projectPath": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
       "packagesPath": "C:\\Users\\nsbch\\.nuget\\packages\\",
-      "outputPath": "D:\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\obj\\publish\\win-x86\\",
+      "outputPath": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\obj\\publish\\win-x86\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nsbch\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -119,7 +119,7 @@ namespace NSLaunch.Class
                     }
                     else
                     {
-                        Application.Exit();
+                        // Application.Exit();
                     }
 
                 }

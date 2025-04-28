@@ -28,6 +28,7 @@ namespace WinFormsApp1
         private string Wantedselected = "";
         private string total = "500";
         private string beforetotal = "0";
+        private decimal previousValue = 0; // เก็บค่า NumericUpDown ก่อนเปลี่ยนแปลง
 
         private string crystal_use = "false";
         private string disc = "1";
@@ -81,7 +82,7 @@ namespace WinFormsApp1
             wt_sushi.Checked = ReadJsonClass.wt_sushi;
             wt_food.Checked = ReadJsonClass.wt_food;
 
-            if (ReadJsonClass.JsonVersion != "Dev")
+            if (ReadJsonClass.JsonVersion != "NSBot Dev")
             {
                 tabControl1.TabPages.Remove(tabPage5);
             }
@@ -755,7 +756,7 @@ namespace WinFormsApp1
             {
                 Console.WriteLine("Error: " + ex.Message);
             }
-}
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -1527,6 +1528,5 @@ namespace WinFormsApp1
             return networkInterface?.GetPhysicalAddress().ToString();
         }
         #endregion อื่นๆ
-
     }
 }

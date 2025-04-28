@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Project\\NSBotUI\\Update\\update - dotnet8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46DE8FE3-89AD-4211-B2E0-DCBB69191E1E}|update\\runupdate.csproj|d:\\github project\\nsbotui\\update\\update - dotnet8\\update\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46DE8FE3-89AD-4211-B2E0-DCBB69191E1E}|update\\runupdate.csproj|solutionrelative:update\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Github Project\\NSBotUI\\Update\\update - dotnet8\\update\\Form1.cs",
+              "RelativeDocumentMoniker": "update\\Form1.cs",
+              "ToolTip": "D:\\Github Project\\NSBotUI\\Update\\update - dotnet8\\update\\Form1.cs",
+              "RelativeToolTip": "update\\Form1.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAewE8BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:29:01.503Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

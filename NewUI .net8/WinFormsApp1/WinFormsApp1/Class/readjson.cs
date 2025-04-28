@@ -69,7 +69,7 @@ namespace NSLaunch.Class
 
                 VersionData jsonData = JsonConvert.DeserializeObject<VersionData>(jsonContent);
 
-                JsonVersion = jsonData.version;
+                JsonVersion = $"NSBot {jsonData.version}";
                 //Event = jsonData.eventtext;
                 changelog = jsonData.changelog;
 
