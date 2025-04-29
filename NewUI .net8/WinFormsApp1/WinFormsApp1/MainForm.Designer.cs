@@ -31,7 +31,6 @@ namespace WinFormsApp1
         private void InitializeComponent()
         {
             ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
-            imgdelaysave = new Button();
             WindowInput = new TextBox();
             ServerSelectBox = new GroupBox();
             radioButtonCN = new RadioButton();
@@ -65,8 +64,8 @@ namespace WinFormsApp1
             transparentPanel1 = new TransparentPanel();
             transparentPanel2 = new TransparentPanel();
             panel2 = new Panel();
-            FindIMGBox = new GroupBox();
-            domainUpDown1 = new DomainUpDown();
+            LogLvBox = new GroupBox();
+            LogLvSelect = new ComboBox();
             RoundOption = new GroupBox();
             ResetRound = new RadioButton();
             KeepRound = new RadioButton();
@@ -126,7 +125,7 @@ namespace WinFormsApp1
             TeamBox.SuspendLayout();
             GameModeBox.SuspendLayout();
             panel2.SuspendLayout();
-            FindIMGBox.SuspendLayout();
+            LogLvBox.SuspendLayout();
             RoundOption.SuspendLayout();
             konleambox.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -147,16 +146,6 @@ namespace WinFormsApp1
             tabPage5.SuspendLayout();
             ((ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
-            // 
-            // imgdelaysave
-            // 
-            imgdelaysave.Location = new Point(111, 21);
-            imgdelaysave.Name = "imgdelaysave";
-            imgdelaysave.Size = new Size(75, 23);
-            imgdelaysave.TabIndex = 1;
-            imgdelaysave.Text = "Save";
-            imgdelaysave.UseVisualStyleBackColor = true;
-            imgdelaysave.Click += imgdelaysave_Click;
             // 
             // WindowInput
             // 
@@ -549,7 +538,7 @@ namespace WinFormsApp1
             // 
             // panel2
             // 
-            panel2.Controls.Add(FindIMGBox);
+            panel2.Controls.Add(LogLvBox);
             panel2.Controls.Add(RoundOption);
             panel2.Controls.Add(konleambox);
             panel2.Controls.Add(groupBox2);
@@ -559,44 +548,25 @@ namespace WinFormsApp1
             panel2.Size = new Size(467, 136);
             panel2.TabIndex = 19;
             // 
-            // FindIMGBox
+            // LogLvBox
             // 
-            FindIMGBox.Controls.Add(imgdelaysave);
-            FindIMGBox.Controls.Add(domainUpDown1);
-            FindIMGBox.Location = new Point(6, 9);
-            FindIMGBox.Name = "FindIMGBox";
-            FindIMGBox.Size = new Size(213, 55);
-            FindIMGBox.TabIndex = 2;
-            FindIMGBox.TabStop = false;
-            FindIMGBox.Text = "Find Image Delay Setting";
+            LogLvBox.Controls.Add(LogLvSelect);
+            LogLvBox.Location = new Point(6, 9);
+            LogLvBox.Name = "LogLvBox";
+            LogLvBox.Size = new Size(213, 55);
+            LogLvBox.TabIndex = 2;
+            LogLvBox.TabStop = false;
+            LogLvBox.Text = "Log Level";
             // 
-            // domainUpDown1
+            // LogLvSelect
             // 
-            domainUpDown1.Items.Add("0.2");
-            domainUpDown1.Items.Add("0.19");
-            domainUpDown1.Items.Add("0.18");
-            domainUpDown1.Items.Add("0.17");
-            domainUpDown1.Items.Add("0.16");
-            domainUpDown1.Items.Add("0.15");
-            domainUpDown1.Items.Add("0.14");
-            domainUpDown1.Items.Add("0.13");
-            domainUpDown1.Items.Add("0.12");
-            domainUpDown1.Items.Add("0.11");
-            domainUpDown1.Items.Add("0.1");
-            domainUpDown1.Items.Add("0.09");
-            domainUpDown1.Items.Add("0.08");
-            domainUpDown1.Items.Add("0.07");
-            domainUpDown1.Items.Add("0.06");
-            domainUpDown1.Items.Add("0.05");
-            domainUpDown1.Items.Add("0.04");
-            domainUpDown1.Items.Add("0.03");
-            domainUpDown1.Items.Add("0.02");
-            domainUpDown1.Items.Add("0.01");
-            domainUpDown1.Location = new Point(36, 22);
-            domainUpDown1.Name = "domainUpDown1";
-            domainUpDown1.Size = new Size(64, 23);
-            domainUpDown1.TabIndex = 0;
-            domainUpDown1.Text = "0.08";
+            LogLvSelect.DropDownStyle = ComboBoxStyle.DropDownList;
+            LogLvSelect.FormattingEnabled = true;
+            LogLvSelect.Location = new Point(48, 22);
+            LogLvSelect.Name = "LogLvSelect";
+            LogLvSelect.Size = new Size(121, 23);
+            LogLvSelect.TabIndex = 0;
+            LogLvSelect.SelectedIndexChanged += LogLvSelect_SelectedIndexChanged;
             // 
             // RoundOption
             // 
@@ -1266,7 +1236,7 @@ namespace WinFormsApp1
             GameModeBox.ResumeLayout(false);
             GameModeBox.PerformLayout();
             panel2.ResumeLayout(false);
-            FindIMGBox.ResumeLayout(false);
+            LogLvBox.ResumeLayout(false);
             RoundOption.ResumeLayout(false);
             RoundOption.PerformLayout();
             konleambox.ResumeLayout(false);
@@ -1300,7 +1270,6 @@ namespace WinFormsApp1
         }
 
         #endregion
-        private Button imgdelaysave;
         private TextBox WindowInput;
         private GroupBox ServerSelectBox;
         private Button wnd_defsize;
@@ -1378,8 +1347,7 @@ namespace WinFormsApp1
         private CheckBox wt_coin;
         private CheckBox wt_jade;
         private CheckBox Notify;
-        private GroupBox FindIMGBox;
-        private DomainUpDown domainUpDown1;
+        private GroupBox LogLvBox;
         private TabControl tabControl1;
         private TabPage tabPage1;
         private TabPage tabPage2;
@@ -1389,5 +1357,6 @@ namespace WinFormsApp1
         private Label changelog;
         private CheckBox MarkBoss;
         private NumericUpDown numericUpDown1;
+        private ComboBox LogLvSelect;
     }
 }
