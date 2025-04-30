@@ -58,8 +58,7 @@
               "ViewState": "AgIAADgAAAAAAAAAAAAiwE0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:59:38.864Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "ViewState": "AgIAAEwAAAAAAAAAAIAwwFcAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:57:22.583Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
               "RelativeToolTip": "WinFormsApp1\\NSLaunch.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-30T04:45:12.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T04:45:12.743Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "WinFormsApp1\\Class\\etc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T13:34:21.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T13:34:21.083Z"
             },
             {
               "$type": "Document",
@@ -117,8 +113,8 @@
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
-              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs*",
-              "RelativeToolTip": "WinFormsApp1\\MainForm.cs*",
+              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAAAFwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T10:03:24.37Z",
@@ -130,8 +126,8 @@
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
-              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs [Design]*",
-              "RelativeToolTip": "WinFormsApp1\\MainForm.cs [Design]*",
+              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T09:35:14.143Z",
               "EditorCaption": " [Design]"
@@ -142,8 +138,8 @@
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.Designer.cs",
-              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs*",
-              "RelativeToolTip": "WinFormsApp1\\MainForm.Designer.cs*",
+              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T04:27:51.231Z",

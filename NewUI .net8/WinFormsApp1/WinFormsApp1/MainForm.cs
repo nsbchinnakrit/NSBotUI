@@ -247,7 +247,7 @@ namespace WinFormsApp1
 
                 Random random = new Random();
                 int randomNumber = random.Next(1, 10); // สร้างเลขสุ่มระหว่าง 1 ถึง 9
-                string imgpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "screenshots\\taskfinished");
+                string imgpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Image\\taskfinished");
                 string fileName = $"{randomNumber}.png"; // เพิ่มหมายเลขสุ่มในชื่อไฟล์
                 string filePath = Path.Combine(imgpath, fileName);
                 try
