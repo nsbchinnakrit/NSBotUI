@@ -4,7 +4,8 @@
     "WQ_JADE": false,
     "WQ_COIN": false,
     "WQ_SUSHI": false,
-    "WQ_FOOD": false
+    "WQ_FOOD": false,
+    "LOG_LV": "INFO"
   },
   "DEFAULT": {
     "IMAGE_FINISHED0_PATH": "./screenshots/Default/finished0.png",
