@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\nslaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\nslaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,11 +45,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "readjson.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\Class\\readjson.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Class\\readjson.cs",
@@ -54,12 +58,11 @@
               "ViewState": "AgIAAJMAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:59:38.864Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "api.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\Class\\api.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Class\\api.cs",
@@ -68,12 +71,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:57:22.583Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NSLaunch",
+              "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
+              "RelativeDocumentMoniker": "WinFormsApp1\\NSLaunch.csproj",
+              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
+              "RelativeToolTip": "WinFormsApp1\\NSLaunch.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T05:00:37.175Z"
             },
             {
               "$type": "Document",
@@ -89,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "etc.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\Class\\etc.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Class\\etc.cs",
@@ -97,12 +110,11 @@
               "RelativeToolTip": "WinFormsApp1\\Class\\etc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T13:34:21.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T13:34:21.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Control.cs",
               "DocumentMoniker": "C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\ebb95d32c9768b9b883ad3d9518f54b9b76c3eeb5e6605b688fc374c6e294c5f\\Control.cs",
               "ToolTip": "C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\ebb95d32c9768b9b883ad3d9518f54b9b76c3eeb5e6605b688fc374c6e294c5f\\Control.cs [Read Only]",
@@ -118,14 +130,13 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
               "RelativeToolTip": "WinFormsApp1\\MainForm.cs",
-              "ViewState": "AgIAAJICAAAAAAAAAAAQwKMCAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAHACAAAAAAAAAAAjwIUCAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T10:03:24.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T10:03:24.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.Designer.cs",
@@ -138,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "version.json",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\version.json",
               "RelativeDocumentMoniker": "WinFormsApp1\\version.json",

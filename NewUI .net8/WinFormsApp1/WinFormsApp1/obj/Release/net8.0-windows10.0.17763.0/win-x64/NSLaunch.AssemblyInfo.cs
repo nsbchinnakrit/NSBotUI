@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NSLaunch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.4.3")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6bcb511b6cf91643d2ae28b84412499ec0b6395")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98f409486ccb3dd33f6763cf742198b54bbccc10")]
 [assembly: System.Reflection.AssemblyProductAttribute("NSLaunch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NSLaunch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.2.4.3")]
