@@ -12,7 +12,7 @@ namespace NSLaunch.Class
     {
         public string JsonVersion = null;
         public string changelog = null;
-        public string loglv = null;
+        public string findimgdelay = null;
         //public string Event = null;
 
         public string Theme = "System";
@@ -137,7 +137,7 @@ namespace NSLaunch.Class
 
                 dynamic jsonData = JsonConvert.DeserializeObject(jsonContent);
 
-                loglv = jsonData.VALUE.LOG_LEVEL;
+                findimgdelay = jsonData.VALUE.FIND_IMG_DELAY;
 
                 if (jsonData.VALUE.WQ_JADE == true)
                 {

@@ -1,5 +1,4 @@
 ﻿using Microsoft.Toolkit.Uwp.Notifications;
-using Microsoft.VisualBasic.Logging;
 using Newtonsoft.Json;
 using NSLaunch.Class;
 using System.ComponentModel;
@@ -67,6 +66,7 @@ namespace WinFormsApp1
             ReadJsonClass.ReadConfigJson();
             NSBotVer.Text = ReadJsonClass.JsonVersion;
             changelog.Text = ReadJsonClass.changelog;
+            domainUpDown1.Text = ReadJsonClass.findimgdelay;
             Notify.Checked = ReadJsonClass.Notify;
             Basic.Checked = ReadJsonClass.Basic;
             Great.Checked = ReadJsonClass.Great;
@@ -81,24 +81,10 @@ namespace WinFormsApp1
             wt_coin.Checked = ReadJsonClass.wt_coin;
             wt_sushi.Checked = ReadJsonClass.wt_sushi;
             wt_food.Checked = ReadJsonClass.wt_food;
+
             if (ReadJsonClass.JsonVersion != "NSBot Dev")
             {
                 tabControl1.TabPages.Remove(tabPage5);
-            }
-
-            LogLvSelect.Items.Add("INFO");
-            LogLvSelect.Items.Add("DEBUG");
-
-            //load loglv จาก config
-            string configLogLv = ReadJsonClass.loglv;
-            if (configLogLv == "INFO" || configLogLv == "DEBUG")
-            {
-                LogLvSelect.Text = configLogLv;
-            }
-            else
-            {
-                // ถ้า config มั่ว ๆ มา ก็ตั้ง default เป็น INFO ไป
-                LogLvSelect.SelectedIndex = 0;
             }
 
             #endregion
@@ -565,6 +551,7 @@ namespace WinFormsApp1
             public static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
         }
 
+        #endregion
         private void FindWindow()
         {
             string windowName = WindowInput.Text;
@@ -629,8 +616,6 @@ namespace WinFormsApp1
                 this.selectedValue = selected;
             }
         }
-
-        #endregion
 
         #region Start Button and Stop Button
         public const uint ES_CONTINUOUS = 0x80000000;
@@ -714,6 +699,9 @@ namespace WinFormsApp1
                 }
                 StartUpdatingFileContent();
                 StartMonitoringFile();
+                // บันทึกการใช้งานไปยัง GitHub
+                string macAddress = GetMACAddress();
+                await LogUsageToGitHub($"[{selectedValue}] Mode:{gameModeselected}, Round:{beforetotal}/{total}, MarkBoss:{MarkBoss_state}, whd:{hwd.ToString()}  ::  {DateTime.Now}  ::  {macAddress}");
             }
             else
             {
@@ -725,50 +713,50 @@ namespace WinFormsApp1
             }
         }
 
-        //private async Task LogUsageToGitHub(string logMessage)
-        //{
-        //    try
-        //    {
-        //        string repo = "nsbchinnakrit/NSBotUserLog"; // แทนที่ด้วยชื่อรีโพสิทอรีของคุณ
-        //        string path = "usage_logs.json"; // ไฟล์ที่ใช้เก็บข้อมูล
-        //        string branch = "main"; // แทนที่ด้วยชื่อสาขา
-        //        string token = "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"; // แทนที่ด้วย GitHub Token
+        private async Task LogUsageToGitHub(string logMessage)
+        {
+            try
+            {
+                string repo = "nsbchinnakrit/NSBotUserLog"; // แทนที่ด้วยชื่อรีโพสิทอรีของคุณ
+                string path = "usage_logs.json"; // ไฟล์ที่ใช้เก็บข้อมูล
+                string branch = "main"; // แทนที่ด้วยชื่อสาขา
+                string token = "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"; // แทนที่ด้วย GitHub Token
 
-        //        HttpClient client = new HttpClient();
-        //        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-        //        client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0");
+                HttpClient client = new HttpClient();
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0");
 
-        //        // ดึงเนื้อหาของไฟล์ปัจจุบันจาก GitHub
-        //        string url = $"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}";
-        //        HttpResponseMessage response = await client.GetAsync(url);
-        //        response.EnsureSuccessStatusCode();
+                // ดึงเนื้อหาของไฟล์ปัจจุบันจาก GitHub
+                string url = $"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}";
+                HttpResponseMessage response = await client.GetAsync(url);
+                response.EnsureSuccessStatusCode();
 
-        //        dynamic content = JsonConvert.DeserializeObject(await response.Content.ReadAsStringAsync());
-        //        string sha = content.sha;
-        //        string fileContent = Encoding.UTF8.GetString(Convert.FromBase64String((string)content.content));
+                dynamic content = JsonConvert.DeserializeObject(await response.Content.ReadAsStringAsync());
+                string sha = content.sha;
+                string fileContent = Encoding.UTF8.GetString(Convert.FromBase64String((string)content.content));
 
-        //        // อัปเดตข้อมูลใหม่เข้าไปในไฟล์
-        //        List<string> logs = JsonConvert.DeserializeObject<List<string>>(fileContent) ?? new List<string>();
-        //        logs.Add(logMessage);
-        //        string updatedContent = Convert.ToBase64String(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(logs, Formatting.Indented)));
+                // อัปเดตข้อมูลใหม่เข้าไปในไฟล์
+                List<string> logs = JsonConvert.DeserializeObject<List<string>>(fileContent) ?? new List<string>();
+                logs.Add(logMessage);
+                string updatedContent = Convert.ToBase64String(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(logs, Formatting.Indented)));
 
-        //        // ส่งไฟล์ที่อัปเดตแล้วกลับไปยัง GitHub
-        //        var updateContent = new
-        //        {
-        //            message = "Update usage logs",
-        //            content = updatedContent,
-        //            sha = sha,
-        //            branch = branch
-        //        };
-        //        HttpContent httpContent = new StringContent(JsonConvert.SerializeObject(updateContent), Encoding.UTF8, "application/json");
-        //        response = await client.PutAsync(url, httpContent);
-        //        response.EnsureSuccessStatusCode();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine("Error: " + ex.Message);
-        //    }
-        //}
+                // ส่งไฟล์ที่อัปเดตแล้วกลับไปยัง GitHub
+                var updateContent = new
+                {
+                    message = "Update usage logs",
+                    content = updatedContent,
+                    sha = sha,
+                    branch = branch
+                };
+                HttpContent httpContent = new StringContent(JsonConvert.SerializeObject(updateContent), Encoding.UTF8, "application/json");
+                response = await client.PutAsync(url, httpContent);
+                response.EnsureSuccessStatusCode();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -1416,33 +1404,22 @@ namespace WinFormsApp1
 
             File.WriteAllText(jsonPath, JsonConvert.SerializeObject(jsonData, Formatting.Indented));
         }
-        private void LogLvSelect_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void imgdelaysave_Click(object sender, EventArgs e)
         {
-            try
-            {
-                string selectedLogLevel = LogLvSelect.SelectedItem.ToString();
+            string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");
+            string jsonContent = File.ReadAllText(jsonPath);
 
-                // 1. โหลด config.json
-                string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");
-                string jsonContent = File.ReadAllText(jsonPath);
+            dynamic jsonData = JsonConvert.DeserializeObject(jsonContent);
 
-                dynamic jsonData = JsonConvert.DeserializeObject(jsonContent);
+            // ตรงนี้คุณสามารถตั้งค่าเป็นค่าทศนิยมโดยตรงโดยไม่ใช้ ""
+            jsonData.VALUE.FIND_IMG_DELAY = float.Parse(domainUpDown1.Text);
 
-                // 2. เซ็ตค่า LOG_LV ใหม่
-                jsonData.VALUE.LOG_LV = selectedLogLevel;
+            string updatedJsonContent = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
 
-                // 3. เซฟกลับลงไฟล์
-                string updatedJsonContent = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
-                File.WriteAllText(jsonPath, updatedJsonContent);
-
-                // Optional: แจ้งเตือนว่าเซฟแล้ว
-                // MessageBox.Show($"บันทึก Log Level เป็น {selectedLogLevel} เรียบร้อยแล้ว!");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}");
-            }
+            File.WriteAllText(jsonPath, updatedJsonContent);
         }
+
 
 
         #endregion Settings Page CheckBox
@@ -1542,7 +1519,14 @@ namespace WinFormsApp1
             }
         }
 
-        #endregion อื่นๆ
+        public string GetMACAddress()
+        {
+            var networkInterface = NetworkInterface.GetAllNetworkInterfaces()
+                                .Where(nic => nic.OperationalStatus == OperationalStatus.Up && nic.NetworkInterfaceType != NetworkInterfaceType.Loopback)
+                                .FirstOrDefault();
 
+            return networkInterface?.GetPhysicalAddress().ToString();
+        }
+        #endregion อื่นๆ
     }
 }
