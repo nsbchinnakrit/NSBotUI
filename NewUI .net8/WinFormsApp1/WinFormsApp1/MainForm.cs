@@ -90,6 +90,7 @@ namespace WinFormsApp1
             #endregion
 
             Check_pact();
+            Check_debug();
             this.Text = "NSBot";
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.Load += Form1_Load_HWD;
@@ -180,6 +181,19 @@ namespace WinFormsApp1
             { this.kuro = "true"; }
         }
         #endregion Check_pact
+
+        #region Check_log_Debuging
+        private void Check_debug()
+        {
+            string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");
+            string jsonContent = File.ReadAllText(jsonPath);
+            dynamic jsonData = JsonConvert.DeserializeObject(jsonContent);
+
+            string logLv = jsonData.VALUE.LOG_LV?.ToString().Trim().ToUpper();
+
+            debugCheckBox.Checked = (logLv == "DEBUG");
+        }
+        #endregion Check_log_Debuging
 
         #region Check Temp File, Notificationcompleted
         private System.Timers.Timer fileReadTimer;
@@ -700,8 +714,8 @@ namespace WinFormsApp1
                 StartUpdatingFileContent();
                 StartMonitoringFile();
                 // บันทึกการใช้งานไปยัง GitHub
-                string macAddress = GetMACAddress();
-                await LogUsageToGitHub($"[{selectedValue}] Mode:{gameModeselected}, Round:{beforetotal}/{total}, MarkBoss:{MarkBoss_state}, whd:{hwd.ToString()}  ::  {DateTime.Now}  ::  {macAddress}");
+                //string macAddress = GetMACAddress();
+                //await LogUsageToGitHub($"[{selectedValue}] Mode:{gameModeselected}, Round:{beforetotal}/{total}, MarkBoss:{MarkBoss_state}, whd:{hwd.ToString()}  ::  {DateTime.Now}  ::  {macAddress}");
             }
             else
             {
@@ -1528,5 +1542,29 @@ namespace WinFormsApp1
             return networkInterface?.GetPhysicalAddress().ToString();
         }
         #endregion อื่นๆ
+
+        private void debugCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string selectedLogLevel = debugCheckBox.Checked ? "DEBUG" : "INFO";
+
+                string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");
+                string jsonContent = File.ReadAllText(jsonPath);
+                dynamic jsonData = JsonConvert.DeserializeObject(jsonContent);
+
+                jsonData.VALUE.LOG_LV = selectedLogLevel;
+
+                string updatedJsonContent = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
+                File.WriteAllText(jsonPath, updatedJsonContent);
+
+                // Optional:
+                // MessageBox.Show($"Log level set to {selectedLogLevel}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
     }
 }

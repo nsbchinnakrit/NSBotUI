@@ -65,6 +65,8 @@ namespace WinFormsApp1
             transparentPanel1 = new TransparentPanel();
             transparentPanel2 = new TransparentPanel();
             panel2 = new Panel();
+            log_debug = new GroupBox();
+            debugCheckBox = new CheckBox();
             FindIMGBox = new GroupBox();
             domainUpDown1 = new DomainUpDown();
             RoundOption = new GroupBox();
@@ -126,6 +128,7 @@ namespace WinFormsApp1
             TeamBox.SuspendLayout();
             GameModeBox.SuspendLayout();
             panel2.SuspendLayout();
+            log_debug.SuspendLayout();
             FindIMGBox.SuspendLayout();
             RoundOption.SuspendLayout();
             konleambox.SuspendLayout();
@@ -549,6 +552,7 @@ namespace WinFormsApp1
             // 
             // panel2
             // 
+            panel2.Controls.Add(log_debug);
             panel2.Controls.Add(FindIMGBox);
             panel2.Controls.Add(RoundOption);
             panel2.Controls.Add(konleambox);
@@ -556,14 +560,36 @@ namespace WinFormsApp1
             panel2.Controls.Add(AfterFinishBox);
             panel2.Location = new Point(4, 8);
             panel2.Name = "panel2";
-            panel2.Size = new Size(467, 136);
+            panel2.Size = new Size(467, 134);
             panel2.TabIndex = 19;
+            // 
+            // log_debug
+            // 
+            log_debug.Controls.Add(debugCheckBox);
+            log_debug.Location = new Point(6, 132);
+            log_debug.Name = "log_debug";
+            log_debug.Size = new Size(213, 55);
+            log_debug.TabIndex = 19;
+            log_debug.TabStop = false;
+            log_debug.Text = "Log Option";
+            // 
+            // debugCheckBox
+            // 
+            debugCheckBox.AutoSize = true;
+            debugCheckBox.Location = new Point(29, 22);
+            debugCheckBox.Name = "debugCheckBox";
+            debugCheckBox.Size = new Size(157, 19);
+            debugCheckBox.TabIndex = 0;
+            debugCheckBox.Text = "Enabling Debug Logging";
+            debugCheckBox.UseVisualStyleBackColor = true;
+            debugCheckBox.CheckedChanged += debugCheckBox_CheckedChanged;
             // 
             // FindIMGBox
             // 
             FindIMGBox.Controls.Add(imgdelaysave);
             FindIMGBox.Controls.Add(domainUpDown1);
-            FindIMGBox.Location = new Point(6, 9);
+            FindIMGBox.Enabled = false;
+            FindIMGBox.Location = new Point(228, 132);
             FindIMGBox.Name = "FindIMGBox";
             FindIMGBox.Size = new Size(213, 55);
             FindIMGBox.TabIndex = 2;
@@ -637,18 +663,18 @@ namespace WinFormsApp1
             // 
             konleambox.Controls.Add(openfolder);
             konleambox.Controls.Add(dl_konleam);
-            konleambox.Location = new Point(91, 138);
+            konleambox.Location = new Point(6, 70);
             konleambox.Name = "konleambox";
-            konleambox.Size = new Size(279, 55);
+            konleambox.Size = new Size(214, 55);
             konleambox.TabIndex = 0;
             konleambox.TabStop = false;
             konleambox.Text = "Wanted Quest Image Folder";
             // 
             // openfolder
             // 
-            openfolder.Location = new Point(19, 21);
+            openfolder.Location = new Point(16, 21);
             openfolder.Name = "openfolder";
-            openfolder.Size = new Size(111, 23);
+            openfolder.Size = new Size(86, 23);
             openfolder.TabIndex = 1;
             openfolder.Text = "Open Folder";
             openfolder.UseVisualStyleBackColor = true;
@@ -656,9 +682,9 @@ namespace WinFormsApp1
             // 
             // dl_konleam
             // 
-            dl_konleam.Location = new Point(152, 21);
+            dl_konleam.Location = new Point(108, 21);
             dl_konleam.Name = "dl_konleam";
-            dl_konleam.Size = new Size(106, 23);
+            dl_konleam.Size = new Size(87, 23);
             dl_konleam.TabIndex = 0;
             dl_konleam.Text = "Delete Folder";
             dl_konleam.UseVisualStyleBackColor = true;
@@ -689,7 +715,7 @@ namespace WinFormsApp1
             AfterFinishBox.Controls.Add(Notify);
             AfterFinishBox.Controls.Add(Closegame);
             AfterFinishBox.Controls.Add(Shutdown);
-            AfterFinishBox.Location = new Point(6, 71);
+            AfterFinishBox.Location = new Point(6, 9);
             AfterFinishBox.Name = "AfterFinishBox";
             AfterFinishBox.Size = new Size(213, 55);
             AfterFinishBox.TabIndex = 15;
@@ -1266,6 +1292,8 @@ namespace WinFormsApp1
             GameModeBox.ResumeLayout(false);
             GameModeBox.PerformLayout();
             panel2.ResumeLayout(false);
+            log_debug.ResumeLayout(false);
+            log_debug.PerformLayout();
             FindIMGBox.ResumeLayout(false);
             RoundOption.ResumeLayout(false);
             RoundOption.PerformLayout();
@@ -1389,5 +1417,7 @@ namespace WinFormsApp1
         private Label changelog;
         private CheckBox MarkBoss;
         private NumericUpDown numericUpDown1;
+        private GroupBox log_debug;
+        private CheckBox debugCheckBox;
     }
 }

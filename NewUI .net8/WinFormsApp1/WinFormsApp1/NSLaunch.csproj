@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <AssemblyName>$(MSBuildProjectName)</AssemblyName>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>00000559.ico</ApplicationIcon>
     <SignAssembly>False</SignAssembly>
     <AssemblyVersion>1.2.4.3</AssemblyVersion>
     <FileVersion>1.2.4.3</FileVersion>
@@ -24,7 +24,7 @@
     <AdditionalFiles Remove="app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <Content Include="00000559.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\Users\nsbch\Videos\00000334.png">
