@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\nslaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\nslaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\version.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -45,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -58,7 +58,8 @@
               "ViewState": "AgIAADgAAAAAAAAAAAAiwE0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:59:38.864Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,11 +72,12 @@
               "ViewState": "AgIAAEwAAAAAAAAAAIAwwFcAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:57:22.583Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NSLaunch",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\NSLaunch.csproj",
               "RelativeDocumentMoniker": "WinFormsApp1\\NSLaunch.csproj",
@@ -94,7 +96,8 @@
               "RelativeToolTip": "WinFormsApp1\\Class\\etc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T13:34:21.083Z"
+              "WhenOpened": "2025-02-23T13:34:21.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -109,13 +112,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
               "RelativeToolTip": "WinFormsApp1\\MainForm.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAQwPwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T10:03:24.37Z",
               "EditorCaption": ""
@@ -134,13 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.Designer.cs",
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeToolTip": "WinFormsApp1\\MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAC8CAAAAAAAAAAAQwEkCAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T04:27:51.231Z",
               "EditorCaption": ""

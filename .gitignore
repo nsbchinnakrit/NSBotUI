@@ -1,0 +1,5 @@
+# Visual Studio stuff
+.vs/
+*.suo
+*.user
+*.cache

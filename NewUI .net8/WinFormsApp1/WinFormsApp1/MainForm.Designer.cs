@@ -580,7 +580,7 @@ namespace WinFormsApp1
             debugCheckBox.Name = "debugCheckBox";
             debugCheckBox.Size = new Size(157, 19);
             debugCheckBox.TabIndex = 0;
-            debugCheckBox.Text = "Enabling Debug Logging";
+            debugCheckBox.Text = "Enable Debug Logging";
             debugCheckBox.UseVisualStyleBackColor = true;
             debugCheckBox.CheckedChanged += debugCheckBox_CheckedChanged;
             // 
