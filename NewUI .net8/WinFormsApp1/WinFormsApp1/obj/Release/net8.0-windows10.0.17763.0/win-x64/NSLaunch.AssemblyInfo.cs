@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.4.3")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98f409486ccb3dd33f6763cf742198b54bbccc10")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07f4441aa0ed1ba8d8d673559647d9890b7d0e37")]
+>>>>>>> parent of 98f4094 (1.4.0)
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07f4441aa0ed1ba8d8d673559647d9890b7d0e37")]
 >>>>>>> parent of 98f4094 (1.4.0)
