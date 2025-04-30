@@ -11,21 +11,12 @@
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\nslaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\nslaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\version.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\version.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
->>>>>>> parent of 98f4094 (1.4.0)
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\class\\readjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,11 +27,15 @@
       "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\class\\etc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\class\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\ebb95d32c9768b9b883ad3d9518f54b9b76c3eeb5e6605b688fc374c6e294c5f\\Control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\ebb95d32c9768b9b883ad3d9518f54b9b76c3eeb5e6605b688fc374c6e294c5f\\Control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|d:\\game\\github project\\nsbotui\\newui .net8\\winformsapp1\\winformsapp1\\version.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC5DEBF1-575A-45BE-A4B1-E336B90FA733}|WinFormsApp1\\NSLaunch.csproj|solutionrelative:winformsapp1\\version.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -60,30 +55,25 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\Class\\readjson.cs",
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\Class\\readjson.cs",
               "RelativeToolTip": "WinFormsApp1\\Class\\readjson.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAiwE0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:59:38.864Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 3,
-=======
-              "DocumentIndex": 6,
->>>>>>> parent of 98f4094 (1.4.0)
               "Title": "api.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\Class\\api.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Class\\api.cs",
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\Class\\api.cs",
               "RelativeToolTip": "WinFormsApp1\\Class\\api.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAIAwwFcAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T06:57:22.583Z",
               "IsPinned": true
             },
             {
-<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "NSLaunch",
@@ -108,9 +98,6 @@
             },
             {
               "$type": "Document",
-=======
-              "$type": "Document",
->>>>>>> parent of 98f4094 (1.4.0)
               "DocumentIndex": 5,
               "Title": "etc.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\Class\\etc.cs",
@@ -123,15 +110,10 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 6,
-=======
-              "DocumentIndex": 7,
->>>>>>> parent of 98f4094 (1.4.0)
               "Title": "Control.cs",
               "DocumentMoniker": "C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\ebb95d32c9768b9b883ad3d9518f54b9b76c3eeb5e6605b688fc374c6e294c5f\\Control.cs",
               "ToolTip": "C:\\Users\\nsbch\\AppData\\Local\\Temp\\.vsdbgsrc\\ebb95d32c9768b9b883ad3d9518f54b9b76c3eeb5e6605b688fc374c6e294c5f\\Control.cs [Read Only]",
-              "ViewState": "AgIAAEIWAAAAAAAAAAAAAHYVAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T10:48:11.342Z",
               "EditorCaption": " [Read Only]"
@@ -144,49 +126,26 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
               "RelativeToolTip": "WinFormsApp1\\MainForm.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAAHACAAAAAAAAAAAjwIUCAAARAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAFwCAAAAAAAAAAAAAFADAAAMAAAAAAAAAA==",
->>>>>>> parent of 98f4094 (1.4.0)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T10:03:24.37Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 7,
-=======
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
-              "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T09:35:14.143Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
->>>>>>> parent of 98f4094 (1.4.0)
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.Designer.cs",
               "ToolTip": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeToolTip": "WinFormsApp1\\MainForm.Designer.cs",
-              "ViewState": "AgIAAN8CAAAAAAAAAAAQwOoCAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T04:27:51.231Z"
+              "WhenOpened": "2025-01-23T04:27:51.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 8,
-=======
-              "DocumentIndex": 3,
->>>>>>> parent of 98f4094 (1.4.0)
               "Title": "version.json",
               "DocumentMoniker": "D:\\Game\\Github Project\\NSBotUI\\NewUI .net8\\WinFormsApp1\\WinFormsApp1\\version.json",
               "RelativeDocumentMoniker": "WinFormsApp1\\version.json",
